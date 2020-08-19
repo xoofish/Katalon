@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='faux-select-selection-organization-provider']/li[52]</value>
+         <value>//ul[@id='faux-select-selection-organization-provider']/li[51]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
