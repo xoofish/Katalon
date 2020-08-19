@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WebElementEntity>
+   <description/>
+   <name>span_WC PP Coffee_faux-selection-arrow</name>
+   <tag/>
+   <elementGuidId>2ba951f4-4717-47b1-ba4e-98511e985a0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/label/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>faux-selection-arrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id("events_edit_pkteigialr_new_event")/section[@class="session-only"]/fieldset[@class="event-type-session event-type-specific form-group hide-if-empty-wrapper"]/div[@class="we-row we-row-has-h-inner-spacing"]/div[@class="we-col hide-if-empty we-col-sm-6"]/label[@class="input-wrapper"]/div[@class="faux-select-wrapper faux-combo-box faux-contents-opened"]/span[@class="faux-selection-arrow"]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='events_edit_pkteigialr_new_event']/section[5]/fieldset/div/div/label/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/label/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

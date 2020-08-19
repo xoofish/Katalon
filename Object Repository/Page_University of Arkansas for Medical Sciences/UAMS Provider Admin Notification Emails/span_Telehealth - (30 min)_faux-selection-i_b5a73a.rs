@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Telehealth - (30 min)_faux-selection-i_b5a73a</name>
+   <tag></tag>
+   <elementGuidId>35fec60a-db50-4ddf-917f-b21b2f63512f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='new_event']/div[2]/div/fieldset/label/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> faux-selection-indicator</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;new_event&quot;)/div[@class=&quot;we-row we-row-has-h-inner-spacing&quot;]/div[@class=&quot;we-col&quot;]/fieldset[@class=&quot;session-request-guest-field&quot;]/label[@class=&quot;input-wrapper input-wrapper-no-max-width required-field&quot;]/div[@class=&quot;faux-select-wrapper faux-contents-opened&quot;]/span[@class=&quot;faux-selection-indicator&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='new_event']/div[2]/div/fieldset/label/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/fieldset/label/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>
