@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_ add another user
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/div_User_multiselect__tags_1'))
 
 'Selects org admin test'
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/span_Org Admin Test'))
+WebUI.click(findTestObject('Page_WeCounsel/span_Org Admin Test'))
 
 'adds a guest'
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_ add another guest'))
