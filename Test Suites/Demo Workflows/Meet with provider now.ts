@@ -15,6 +15,6 @@
       <guid>159dbaf1-6203-4593-a8e4-b65aa8c398d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo Workflows/Meet with a provider now UAMS/Meet with provider</testCaseId>
+      <testCaseId>Test Cases/Demo Workflows/Manage Patients Workflow/Meet with a provider now UAMS/Meet with provider</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
