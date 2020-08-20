@@ -375,7 +375,7 @@ WebUI.setText(findTestObject('Demo Workflows/Session functionality/Messaging/div
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Messaging/legend_Attachments'))
 
-WebUI.uploadFile(findTestObject('Demo Workflows/Session functionality/Messaging/a_Attach a new document'), 'C:\\Users\\hawki\\Desktop\\WCPP\\sample.pdf')
+WebUI.uploadFile(findTestObject('Demo Workflows/Session functionality/Messaging/a_Attach a new document'), 'C:\\Users\\Alex Cullor\\Katalon Studio\\sample.pdf')
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Messaging/button_Send'))
 

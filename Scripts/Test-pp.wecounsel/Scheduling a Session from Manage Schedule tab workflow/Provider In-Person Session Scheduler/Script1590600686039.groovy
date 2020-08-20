@@ -124,7 +124,7 @@ if (clientTestCheck.contains('Client Test')) {
 
 def orgAdminCheck = WebUI.getText(findTestObject('Page_WeCounsel/insideIframe/li_Org Admin Test'))
 
-if (orgAdminCheck.contains('Org Admin Test')) {
+if (orgAdminCheck.contains('Heath Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
