@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='messages-wrapper']/div/div/div/div[2]/div/a</value>
+         <value>//a[@class='we-button nav-link dialog-footer-item reply-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
