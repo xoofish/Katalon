@@ -102,6 +102,8 @@ WebUI.acceptAlert()
 'navigates to notes'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Notes Button'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Create Notes Button'))
 
 'create a new blank note'
