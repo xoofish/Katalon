@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoOrgAdmin@gmail.com')
 
 'Password123'
-WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'p4y+y39Ir5PJb2ispxT0Ew==')
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 
