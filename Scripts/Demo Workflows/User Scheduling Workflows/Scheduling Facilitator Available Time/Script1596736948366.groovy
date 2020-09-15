@@ -23,8 +23,8 @@ WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 'Scheduling facilitator account'
 WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoSchedulingFacilitator@gmail.com')
 
-'Password123'
-WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'p4y+y39Ir5PJb2ispxT0Ew==')
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 
@@ -49,12 +49,12 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/Select provider dropdown'))
 'selects autoprovider test'
 WebUI.click(findTestObject('Demo Workflows/Scheduler/AutoProvider Test in dropdown'))
 
-not_run: WebUI.delay(5)
-
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Filters Button'))
+
+WebUI.delay(5)
 
 'this is for a workaround to reopen the filters tab after closing'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Filters Button'))
+WebUI.mouseOver(findTestObject('Demo Workflows/Scheduler/Filters Button'))
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Filter Apply'))
 
@@ -97,8 +97,10 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 
+WebUI.delay(2)
+
 'clicks on newly created appointment'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 2pm appointment'))
+WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 2pm appointment-rev'))
 
 WebUI.delay(3)
 

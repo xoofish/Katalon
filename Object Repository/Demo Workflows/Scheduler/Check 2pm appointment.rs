@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[1]//td[6]//a[7]//div[1]//div[2]</value>
+         <value>//a[@class='fc-time-grid-event fc-v-event fc-event fc-start fc-end short-event online-session fc-short']//div[@class='fc-content']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
