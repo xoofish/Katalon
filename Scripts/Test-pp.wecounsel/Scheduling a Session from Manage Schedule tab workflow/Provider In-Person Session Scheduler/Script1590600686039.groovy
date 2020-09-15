@@ -62,12 +62,16 @@ WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_SMS Phone_guest-
 'First name'
 WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_First Name_guest-first_name-1589915293955'), 'john')
 
+WebUI.delay(2)
+
 'Last name'
 WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_Last Name_guest-last_name-1589915293955'), 'doe')
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
+
+WebUI.delay(10)
 
 Date today = new Date()
 

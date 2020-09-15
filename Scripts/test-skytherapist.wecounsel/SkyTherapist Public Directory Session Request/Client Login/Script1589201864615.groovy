@@ -24,8 +24,8 @@ WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log
 
 WebUI.setText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_useremail'), 'mtrvisuwell+octtest@gmail.com')
 
-'Password123'
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_userpassword'), 'p4y+y39Ir5PJb2ispxT0Ew==')
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/button_Log in'))
 

@@ -24,9 +24,9 @@ WebUI.navigateToUrl('https://test-uams-med.wecounsel.com/users/sign_in')
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_useremail'), 
     'alexuamsqa+uamsclient@gmail.com')
 
-'Password123'
+'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_userpassword'), 
-    'p4y+y39Ir5PJb2ispxT0Ew==')
+    'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_userpassword'), 
     Keys.chord(Keys.ENTER))

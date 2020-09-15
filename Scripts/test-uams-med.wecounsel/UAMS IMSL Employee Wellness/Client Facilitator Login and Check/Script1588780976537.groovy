@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Me
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/input_Please Log In_useremail'), 
     'alexuamsqa+UAMSclinicalfacilitator@gmail.com')
 
-'Password123'
+'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/input_Please Log In_userpassword'), 
-    'p4y+y39Ir5PJb2ispxT0Ew==')
+    'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/button_Log in'))
 

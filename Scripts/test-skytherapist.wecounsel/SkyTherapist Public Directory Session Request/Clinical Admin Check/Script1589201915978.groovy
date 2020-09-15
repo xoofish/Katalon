@@ -28,8 +28,8 @@ WebUI.navigateToUrl('https://test-skytherapist.wecounsel.com/users/sign_in')
 'Logs into skytherapist provider'
 WebUI.setText(findTestObject('Page_SkyTherapist/input_Please Log In_useremail'), 'mtrvisuwell+skytestadmin@wecounsel.com')
 
-'Password123'
-WebUI.setEncryptedText(findTestObject('Page_SkyTherapist/input_Please Log In_userpassword'), 'p4y+y39Ir5PJb2ispxT0Ew==')
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_SkyTherapist/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.click(findTestObject('Page_SkyTherapist/button_Log in'))
 

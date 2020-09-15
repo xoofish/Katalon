@@ -69,6 +69,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
 
+WebUI.delay(10)
+
 Date today = new Date()
 
 Date tomorrow = today.next()
