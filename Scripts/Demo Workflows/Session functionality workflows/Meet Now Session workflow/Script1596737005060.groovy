@@ -30,6 +30,8 @@ DriverFactory.changeWebDriver(driver1)
 
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
+WebUI.maximizeWindow()
+
 WebUI.delay(2)
 
 'autoprovider test acct'
