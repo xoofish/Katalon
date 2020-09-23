@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>a_AutoClient Test</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>4d1c3bb7-d19d-4372-a040-c2fe7128ddc4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'AutoClient Test')]</value>
+         <value>//a[contains(text(),'Auto Client Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("wesessions-wrapper")/div[@class="event-info"]/div[@class="we-button-container we-text-center we-mt-1 we-pb-1"]/div[@class="we-button-container we-text-center we-mt-1 we-pb-1"]/table[@class="we-table we-table-wrap-lg"]/tbody[1]/tr[1]/td[@class="participants-names"]/div[@class="session-participant"]/a[1]</value>
+      <value>id(&quot;wesessions-wrapper&quot;)/div[@class=&quot;event-info&quot;]/div[@class=&quot;we-button-container we-text-center we-mt-1 we-pb-1&quot;]/div[@class=&quot;we-button-container we-text-center we-mt-1 we-pb-1&quot;]/table[@class=&quot;we-table we-table-wrap-lg&quot;]/tbody[1]/tr[1]/td[@class=&quot;participants-names&quot;]/div[@class=&quot;session-participant&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

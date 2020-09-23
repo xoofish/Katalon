@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Client 2 Test')]</value>
+      <value>//a[contains(text(),'Client two Test')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

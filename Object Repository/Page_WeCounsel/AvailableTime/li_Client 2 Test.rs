@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class='faux-select faux-opened faux-focused']//li[contains(@class,'faux-option')][contains(text(),'Client 2 Test')]</value>
+         <value>//ul[@class='faux-select faux-opened faux-focused']//li[contains(@class,'faux-option')][contains(text(),'Client Two Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

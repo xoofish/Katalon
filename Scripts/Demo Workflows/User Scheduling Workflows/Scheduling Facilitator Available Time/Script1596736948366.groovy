@@ -18,10 +18,12 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 'Scheduling facilitator account'
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoSchedulingFacilitator@gmail.com')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoschedulingfacilitator@visuwell.net')
 
 'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
@@ -74,7 +76,7 @@ WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/a_Invite from Client Li
 
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_Attendees 2'))
 
-'selects client 2 test'
+'selects client two test'
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client 2 Test'))
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
