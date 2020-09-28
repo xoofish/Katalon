@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_AutoClient Test</name>
+   <name>a_Auto Client Test</name>
    <tag></tag>
    <elementGuidId>4d1c3bb7-d19d-4372-a040-c2fe7128ddc4</elementGuidId>
    <selectorCollection>

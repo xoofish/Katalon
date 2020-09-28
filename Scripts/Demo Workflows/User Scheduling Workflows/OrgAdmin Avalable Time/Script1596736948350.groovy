@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 'Auto Org Admin Acct'
@@ -107,6 +109,8 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/li_100pm'))
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/button_Save - org admin'))
 
+not_run: WebUI.refresh()
+
 WebUI.delay(12)
 
 not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
@@ -116,10 +120,10 @@ not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 'clicks on newly created 1:00pm appointment'
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 1pm appt'))
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_AutoClient Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
 
 'checks autoclient test member'
-if (member1.contains('AutoClient Test')) {
+if (member1.contains('Auto Client Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -135,7 +139,7 @@ if (member2.contains('AutoProvider Test')) {
 String member3 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Client 2 Test'))
 
 'checks client 2 test member'
-if (member3.contains('Client 2 Test')) {
+if (member3.contains('Client Two Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

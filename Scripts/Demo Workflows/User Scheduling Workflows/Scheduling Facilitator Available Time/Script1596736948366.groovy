@@ -106,7 +106,7 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 2pm appointment-rev')
 
 WebUI.delay(3)
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_AutoClient Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
 
 'checks autoclient test attendee'
 if (member1.contains('AutoClient Test')) {

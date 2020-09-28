@@ -111,7 +111,7 @@ not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 'clicks on newly created 3:00pm appointment'
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 3 pm appointment'))
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_AutoClient Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
 
 'checks autoclient attendee'
 if (member1.contains('AutoClient Test')) {

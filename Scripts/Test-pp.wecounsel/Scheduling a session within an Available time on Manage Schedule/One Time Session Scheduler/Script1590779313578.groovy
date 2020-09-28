@@ -81,7 +81,7 @@ WebUI.delay(12)
 'Clicks on newly scheduled 3:00 pm appointment'
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/Checker/Check 3pm appt'))
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_AutoClient Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
 
 if (member1.contains('AutoClient Test')) {
 } else {

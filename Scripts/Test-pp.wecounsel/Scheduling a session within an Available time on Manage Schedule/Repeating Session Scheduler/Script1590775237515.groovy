@@ -111,7 +111,7 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/span_May 10  16 202
 'Clicks on newly scheduled 2:00 pm appointment'
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/Checker/Check 2 pm appt'))
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_AutoClient Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
 
 if (member1.contains('AutoClient Test')) {
 } else {
