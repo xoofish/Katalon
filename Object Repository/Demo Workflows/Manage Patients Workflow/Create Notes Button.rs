@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='controls']//a[@class='we-button we-button-full-width-md copy-template-list-link create-new-user-note-link edit-form-link'][contains(text(),'Create New Note')]</value>
+         <value>//a[@class='we-button we-button-full-width-md copy-template-list-link create-new-user-note-link edit-form-link']</value>
       </entry>
       <entry>
          <key>BASIC</key>

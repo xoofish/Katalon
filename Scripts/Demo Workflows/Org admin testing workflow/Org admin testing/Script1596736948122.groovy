@@ -18,6 +18,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
