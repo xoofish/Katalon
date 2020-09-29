@@ -1,92 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Client 2 Test</name>
+   <name>button_Log in</name>
    <tag></tag>
-   <elementGuidId>d763063e-60d0-4e02-9246-3830514d463b</elementGuidId>
+   <elementGuidId>89b9abc6-ee5c-4240-84c5-b725662be25d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class='faux-select faux-opened faux-focused']//li[contains(@class,'faux-option')][contains(text(),'Client 2 Test')]</value>
+         <value>//button[@name='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-value</name>
+      <name>name</name>
       <type>Main</type>
-      <value>16086</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> faux-option</value>
+      <value>we-button login-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-disable-with</name>
+      <type>Main</type>
+      <value>Processing...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-enable-with</name>
+      <type>Main</type>
+      <value>Log in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Client 2 Test</value>
+      <value>Log in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;faux-select-events_edit_xopuscmnhg_event_users_attributes_1_id&quot;)/li[@class=&quot;faux-option&quot;]</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;auth-form-wrapper&quot;]/form[@class=&quot;main-login form-header&quot;]/div[@class=&quot;controls&quot;]/button[@class=&quot;we-button login-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='button']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='faux-select-events_edit_xopuscmnhg_event_users_attributes_1_id']/li[5]</value>
+      <value>//div[@id='main']/div/form/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AutoClient Test'])[2]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please Log In'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete John Doe'])[2]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers:'])[2]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dollar Owner'])[2]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/div/ul/li[5]</value>
+      <value>//button</value>
    </webElementXpaths>
 </WebElementEntity>

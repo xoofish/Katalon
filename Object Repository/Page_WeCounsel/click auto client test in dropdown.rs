@@ -6,11 +6,11 @@
    <elementGuidId>73044c13-aeb2-4d4c-baa6-bd454ce0fef0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[contains(text(),'Auto Client Test')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'AutoClient Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

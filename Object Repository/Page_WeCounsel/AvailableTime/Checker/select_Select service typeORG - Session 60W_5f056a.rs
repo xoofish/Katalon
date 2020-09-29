@@ -1,92 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Client 2 Test</name>
+   <name>select_Select service typeORG - Session 60W_5f056a</name>
    <tag></tag>
-   <elementGuidId>d763063e-60d0-4e02-9246-3830514d463b</elementGuidId>
+   <elementGuidId>454c1b7c-d54f-4a27-91ce-ab15ad386e60</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class='faux-select faux-opened faux-focused']//li[contains(@class,'faux-option')][contains(text(),'Client 2 Test')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.service-type</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-value</name>
+      <name>aria-required</name>
       <type>Main</type>
-      <value>16086</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> faux-option</value>
+      <value>service-type</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Client 2 Test</value>
+      <value>Select service typeORG - Session 60WC PP Coffee</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;faux-select-events_edit_xopuscmnhg_event_users_attributes_1_id&quot;)/li[@class=&quot;faux-option&quot;]</value>
+      <value>/html[1]/body[1]/div[1]/div[@class=&quot;modal active&quot;]/div[@class=&quot;modal-container scheduler-main-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;main-schedule-step-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[@class=&quot;form-group-service-type form-group&quot;]/select[@class=&quot;service-type&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_WeCounsel/AvailableTime/Checker/iframe_ WeCounsel 2011 - 2020_iframe-fronte_98eb21</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//ul[@id='faux-select-events_edit_xopuscmnhg_event_users_attributes_1_id']/li[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AutoClient Test'])[2]/following::li[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete John Doe'])[2]/following::li[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers:'])[2]/preceding::li[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dollar Owner'])[2]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/div/ul/li[5]</value>
+      <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

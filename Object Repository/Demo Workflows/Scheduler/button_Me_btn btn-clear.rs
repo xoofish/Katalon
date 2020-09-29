@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Me_btn btn-clear</name>
+   <tag></tag>
+   <elementGuidId>abbd3638-a0ff-4581-a1dc-55da021b8c41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[2]/div/div/div/div/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-clear</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-clear</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[1]/div[@class=&quot;modal active&quot;]/div[@class=&quot;modal-container scheduler-main-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;main-schedule-step-content&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;panel&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;scheduler-user-search-form&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;autosuggest-search-form&quot;]/div[@class=&quot;focused form-autocomplete autosuggest-group form-group&quot;]/div[@class=&quot;type-fill push&quot;]/div[@class=&quot;main-box&quot;]/div[@class=&quot;chip item&quot;]/button[@class=&quot;btn btn-clear&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Demo Workflows/Scheduler/iframe_ WeCounsel 2011 - 2020_iframe-fronte_98eb21</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[2]/div/div/div/div/div/div/button</value>
+   </webElementXpaths>
+</WebElementEntity>

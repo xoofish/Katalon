@@ -27,49 +27,32 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Session'))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_WeCounsel/event type span'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Demo Workflows/Scheduler/select_Video SessionIn-Person Session'), 
+    'in-person-session', true)
 
-'Selects in person session'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/select_Video SessionIn Person Session'), '1', 
-    true)
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
+WebUI.setText(findTestObject('Object Repository/Demo Workflows/Scheduler/input_Me_scheduler-search-field'), 'autoclient test')
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/div_User_multiselect__tags'))
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/span_AutoClient Test'))
 
-'Selects auto client\r\n'
-WebUI.click(findTestObject('Page_WeCounsel/insideIframe/Auto Client Selector'))
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/span_Add another guest'))
 
-'Clicks add another user'
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_ add another user'))
+String TimeStampEmail = ('alexc+DELETE' + System.nanoTime()) + '@visuwell.net'
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/div_User_multiselect__tags_1'))
+WebUI.setText(findTestObject('Object Repository/Demo Workflows/Scheduler/input'), TimeStampEmail)
 
-'Selects org admin test'
-WebUI.click(findTestObject('Page_WeCounsel/span_Org Admin Test'))
+WebUI.setText(findTestObject('Object Repository/Demo Workflows/Scheduler/input_1'), '(423) 280 - 3111')
 
-'adds a guest'
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_ add another guest'))
+WebUI.setText(findTestObject('Object Repository/Demo Workflows/Scheduler/input_1_2'), 'john')
 
-String TimeStampEmail = ('nickbiz060+DELETE' + System.nanoTime()) + '@gmail.com'
+WebUI.setText(findTestObject('Object Repository/Demo Workflows/Scheduler/input_1_2_3'), 'doe')
 
-'Sets email to nickbiz060+DELETE(timestamp)@gmail.com'
-WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_Email_guest-email-1588959461844'), TimeStampEmail)
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/label_No'))
 
-'VALID SMS TO ALEX CULLOR (Change this)'
-WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_SMS Phone_guest-sms-number-1589915293955'), '4232803111')
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/button_Add'))
 
-'First name'
-WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_First Name_guest-first_name-1589915293955'), 'john')
-
-WebUI.delay(2)
-
-'Last name'
-WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_Last Name_guest-last_name-1589915293955'), 'doe')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/button_Next'))
 
 WebUI.delay(10)
 
@@ -80,37 +63,33 @@ Date tomorrow = today.next()
 'Gets date of tomorrow'
 String formattedDate = tomorrow.format('MM/dd/yyyy')
 
-WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_Start time_session-date'), '')
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_Start time_session-date'), formattedDate)
+WebUI.setText(findTestObject('Demo Workflows/Scheduler/input (1)'), '')
 
 'Inputs date of tomorrow'
 for (int i = 0; i < formattedDate.length(); i++) {
     String part = formattedDate.charAt(i)
 
-    WebUI.sendKeys(findTestObject('Page_WeCounsel/insideIframe/input_Start time_session-date'), part)
+    WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/input (1)'), part)
 
     Thread.sleep(500)
 }
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_WeCounsel/insideIframe/Time Picker Dropdown'))
-
-'Selects 1 pm'
-WebUI.click(findTestObject('Page_WeCounsel/insideIframe/option one pm'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/select_1200 am1205 am1210 am1215 am1220 am1_1096b9'), 
+    '13:00:00', true)
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
 
-'Selects Org session 60'
-WebUI.selectOptionByValue(findTestObject('Page_WeCounsel/select_ORG - Session 60WC PP Coffee'), '1469', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/Checker/select_Select service typeORG - Session 60W_5f056a'), 
+    '1469', true)
 
-'Determines location by attendees'
-WebUI.selectOptionByValue(findTestObject('Page_WeCounsel/select_Determine location from attendeesWeC_08f978'), '525', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Demo Workflows/Scheduler/select_Select organizationWecounsel Private_d24de3'), 
+    '1', true)
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Next'))
+
+WebUI.delay(5)
 
 def eventTypeCheck = WebUI.getText(findTestObject('Page_WeCounsel/insideIframe/div_Video Session'))
 
@@ -126,9 +105,9 @@ if (clientTestCheck.contains('Client Test')) {
     KeywordUtil.markFailedAndStop()
 }
 
-def orgAdminCheck = WebUI.getText(findTestObject('Page_WeCounsel/insideIframe/li_Org Admin Test'))
+not_run: def orgAdminCheck = WebUI.getText(findTestObject('Page_WeCounsel/insideIframe/li_Org Admin Test'))
 
-if (orgAdminCheck.contains('Heath Test')) {
+not_run: if (orgAdminCheck.contains('Heath Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -163,7 +142,7 @@ if (locationCheck.contains('WeCounsel Private Practice - Location 2')) {
     KeywordUtil.markFailedAndStop()
 }
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Finish'))
+WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/button_Finish'))
 
 WebUI.delay(5)
 
