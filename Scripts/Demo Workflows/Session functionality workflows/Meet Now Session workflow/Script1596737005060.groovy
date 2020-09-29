@@ -165,3 +165,5 @@ WebUI.verifyElementPresent(findTestObject('Demo Workflows/Session functionality/
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Left Hand Controls/button_End Session'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.acceptAlert()
+

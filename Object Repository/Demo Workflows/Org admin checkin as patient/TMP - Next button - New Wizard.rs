@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TMP - Next button</name>
+   <name>TMP - Next button - New Wizard</name>
    <tag></tag>
-   <elementGuidId>25d85e0e-8beb-472a-a84a-dd540f746161</elementGuidId>
+   <elementGuidId>f04fba77-05ed-41d4-8975-0423d882833e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn-primary btn']</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -15,13 +15,6 @@
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Demo Workflows/Org admin checkin as patient/iframe__iframe-wizard</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>

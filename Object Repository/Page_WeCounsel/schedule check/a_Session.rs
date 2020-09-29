@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Session</name>
    <tag></tag>
-   <elementGuidId>f1342a33-0fae-4fb3-b95c-234d0b422434</elementGuidId>
+   <elementGuidId>2f4c7d50-9d92-4b53-8962-40035a59d180</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,7 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
