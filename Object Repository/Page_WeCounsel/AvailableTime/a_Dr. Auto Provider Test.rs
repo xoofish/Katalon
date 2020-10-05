@@ -1,99 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AutoProvider Email</name>
+   <name>a_Dr. Auto Provider Test</name>
    <tag></tag>
-   <elementGuidId>acd75fb9-7b6b-4eec-9945-b2fc59ff4073</elementGuidId>
+   <elementGuidId>70bdf958-a43a-48de-837f-70597774179c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='professional_2018'])[1]/following::span[1]</value>
+         <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[title=&quot;Dr. Auto Provider Test&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-title</name>
+      <name>title</name>
       <type>Main</type>
-      <value>nickbiz060+autoprovider@gmail.com</value>
+      <value>Dr. Auto Provider Test</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>href</name>
       <type>Main</type>
-      <value>tippy-4</value>
+      <value>/users/18549/edit#primary-navigation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>nickbiz060+autoprovider@...</value>
+      <value>Dr. Auto Provider Test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;users-wrapper&quot;)/section[@class=&quot;we-card we-mt-1 users-card&quot;]/div[@class=&quot;we-card-body&quot;]/table[@class=&quot;we-table we-table-wrap-lg  we-table-small&quot;]/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;we-text-word-break&quot;]/span[1]</value>
+      <value>id(&quot;wesessions-wrapper&quot;)/div[@class=&quot;event-info&quot;]/div[@class=&quot;we-button-container we-text-center we-mt-1 we-pb-1&quot;]/div[@class=&quot;we-button-container we-text-center we-mt-1 we-pb-1&quot;]/table[@class=&quot;we-table we-table-wrap-lg&quot;]/tbody[1]/tr[1]/td[@class=&quot;participants-names&quot;]/div[@class=&quot;session-participant&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[7]/span</value>
+      <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Dr. Auto Provider Test')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='professional_2018'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service type'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provider'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session Time'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wecounsel Pr...'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Client Test'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes/Active'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Two Test'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='alexc+autoprovider@...']/parent::*</value>
+      <value>//a[contains(@href, '/users/18549/edit#primary-navigation')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[7]/span</value>
+      <value>//td/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

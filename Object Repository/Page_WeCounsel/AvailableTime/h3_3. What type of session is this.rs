@@ -1,99 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AutoProvider Email</name>
+   <name>h3_3. What type of session is this</name>
    <tag></tag>
-   <elementGuidId>acd75fb9-7b6b-4eec-9945-b2fc59ff4073</elementGuidId>
+   <elementGuidId>ffebf161-fdae-4784-8cf9-a2ccbd0498c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='professional_2018'])[1]/following::span[1]</value>
+         <value>//form[@id='events_edit_ysmtaqbkip_new_event']/section[5]/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>section.session-only > h3.we-h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-title</name>
+      <name>class</name>
       <type>Main</type>
-      <value>nickbiz060+autoprovider@gmail.com</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>tippy-4</value>
+      <value>we-h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>nickbiz060+autoprovider@...</value>
+      <value>3. What type of session is this?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;users-wrapper&quot;)/section[@class=&quot;we-card we-mt-1 users-card&quot;]/div[@class=&quot;we-card-body&quot;]/table[@class=&quot;we-table we-table-wrap-lg  we-table-small&quot;]/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;we-text-word-break&quot;]/span[1]</value>
+      <value>id(&quot;events_edit_ysmtaqbkip_new_event&quot;)/section[@class=&quot;session-only&quot;]/h3[@class=&quot;we-h3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[7]/span</value>
+      <value>//form[@id='events_edit_ysmtaqbkip_new_event']/section[5]/h3</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='professional_2018'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Determine location from attendees'])[3]/following::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provider'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FD - Location 1'])[4]/following::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wecounsel Pr...'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dollar Coffee'])[2]/preceding::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes/Active'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORG - Session 60'])[2]/preceding::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='alexc+autoprovider@...']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='3. What type of session is this?']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[7]/span</value>
+      <value>//section[5]/h3</value>
    </webElementXpaths>
 </WebElementEntity>

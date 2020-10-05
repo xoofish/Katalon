@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='user_password_field_epdafdiadt']</value>
+         <value>//input[@id='user_password_field_gryzbzgimb']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#user_password_field_epdafdiadt</value>
+         <value>#user_password_field_gryzbzgimb</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user_password_field_epdafdiadt</value>
+      <value>user_password_field_gryzbzgimb</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,14 +70,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;user_password_field_epdafdiadt&quot;)</value>
+      <value>id(&quot;user_password_field_gryzbzgimb&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='user_password_field_epdafdiadt']</value>
+      <value>//input[@id='user_password_field_gryzbzgimb']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +92,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[2]/label/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='user_password_field_epdafdiadt']</value>
    </webElementXpaths>
 </WebElementEntity>

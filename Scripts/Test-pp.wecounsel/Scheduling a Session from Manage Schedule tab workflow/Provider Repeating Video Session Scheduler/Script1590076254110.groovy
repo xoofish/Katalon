@@ -56,8 +56,8 @@ String TimeStampEmail = ('nickbiz060+DELETE' + System.nanoTime()) + '@gmail.com'
 'Sets email to nickbiz060+DELETE(timestamp)@gmail.com'
 WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_Email_guest-email-1588959461844'), TimeStampEmail)
 
-'VALID SMS TO NICK HAWKINS (Change this)'
-WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_SMS Phone_guest-sms-number-1589915293955'), '4232252263')
+'VALID SMS TO ALEX CULLOR (Change this)'
+WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_SMS Phone_guest-sms-number-1589915293955'), '4232803111')
 
 'First name'
 WebUI.setText(findTestObject('Page_WeCounsel/insideIframe/input_First Name_guest-first_name-1589915293955'), 'john')

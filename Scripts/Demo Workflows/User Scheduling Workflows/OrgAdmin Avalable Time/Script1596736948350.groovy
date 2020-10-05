@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 'Auto Org Admin Acct'
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoOrgAdmin@gmail.com')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoorgadmin@visuwell.net')
 
 'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
@@ -38,15 +38,15 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/User Management button'))
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Providers button'))
 
-'Searches for AutoProvider test'
-WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), 'AutoProvider Test')
+'Searches for Auto Provider Test'
+WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), 'Auto Provider Test')
 
 WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), Keys.chord(Keys.ENTER))
 
 String Text = WebUI.getText(findTestObject('Demo Workflows/Scheduler/AutoProvider Email'), FailureHandling.STOP_ON_FAILURE)
 
 'Checks to see if gathered email matches expected email'
-if (Text.contains('nickbiz060+autoprovider')) {
+if (Text.contains('alexc+autoprovider')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 
 'Selects thursday 5:00-6:00pm slot'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Thursday 500 - 600'))
+WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_1200 - 100'))
 
 not_run: WebUI.rightClick(findTestObject('Object Repository/Page_WeCounsel/a_Edit Availability'))
 
@@ -73,21 +73,36 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Schedule Session'
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Demo Workflows/Scheduler/span_Attendees 1 - org admin'))
+not_run: WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_Attendees'))
 
-'Selects autoclient test'
-WebUI.click(findTestObject('Page_WeCounsel/click auto client test in dropdown'))
+'Selects Auto Client Test'
+not_run: WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Auto Client Test'))
 
 'adds second attendee'
-WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/a_Invite from Client List'))
+not_run: WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/a_Invite from Client List'))
 
-WebUI.click(findTestObject('Demo Workflows/Scheduler/span_Attendees 2 - org admin'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/span_Attendees 2 - org admin'))
 
 'selects client 2 test'
-WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client 2 Test'))
+not_run: WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client Two Test'))
+
+WebUI.click(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/span_Attendees'))
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/select_AttendeesClientsAkibasav.jon971patie_ec5010'), 
+    '18528', true)
+
+WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Auto Client Test'))
+
+WebUI.click(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/a_Add a User'))
+
+WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_Attendees 2'))
+
+WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client Two Test'))
 
 'selects video session'
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/form_Available Time1. Who are you meeting w_ed1679'))
 
 not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Invite Guest by Email'))
 
@@ -120,7 +135,7 @@ not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 'clicks on newly created 1:00pm appointment'
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 1pm appt'))
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Auto Client Test'))
 
 'checks autoclient test member'
 if (member1.contains('Auto Client Test')) {
@@ -128,15 +143,15 @@ if (member1.contains('Auto Client Test')) {
     KeywordUtil.markFailedAndStop()
 }
 
-String member2 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_AutoProvider Test'))
+String member2 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
 
 'checks autoprovider test member'
-if (member2.contains('AutoProvider Test')) {
+if (member2.contains('Dr. Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member3 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Client 2 Test'))
+String member3 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Client Two Test'))
 
 'checks client 2 test member'
 if (member3.contains('Client Two Test')) {

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Please Log In_useremail</name>
+   <name>input_Please Log In_userpassword_1</name>
    <tag></tag>
-   <elementGuidId>d7e0554d-bd3f-412f-945a-3c31e9e8c923</elementGuidId>
+   <elementGuidId>054de738-e56f-47a2-9a0e-730487aae8bf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='user_email_field_bdczufqpae']</value>
+         <value>//input[@id='user_password_field_tvtjwppeug']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#user_email_field_bdczufqpae</value>
+         <value>#user_password_field_tvtjwppeug</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,69 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user_email_field_bdczufqpae</value>
+      <value>user_password_field_tvtjwppeug</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Email</value>
+      <value>Password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>email-field</value>
+      <value>password-field</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>user[email]</value>
+      <value>user[password]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;user_email_field_bdczufqpae&quot;)</value>
+      <value>id(&quot;user_password_field_tvtjwppeug&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='user_email_field_bdczufqpae']</value>
+      <value>//input[@id='user_password_field_tvtjwppeug']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main']/div/form/fieldset/label/input</value>
+      <value>//div[@id='main']/div/form/fieldset[2]/label/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='user_email_field_lqeyjtrrqy']</value>
+      <value>//fieldset[2]/label/input</value>
    </webElementXpaths>
 </WebElementEntity>

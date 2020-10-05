@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AutoProvider Email</name>
+   <name>span_Attendees</name>
    <tag></tag>
-   <elementGuidId>acd75fb9-7b6b-4eec-9945-b2fc59ff4073</elementGuidId>
+   <elementGuidId>30ab9385-4ba4-43e2-8c56-3922912c8f3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='professional_2018'])[1]/following::span[1]</value>
+         <value>//form[@id='events_edit_wdudowdpfk_new_event']/section/fieldset[2]/fieldset/label/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -22,78 +26,78 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-title</name>
+      <name>class</name>
       <type>Main</type>
-      <value>nickbiz060+autoprovider@gmail.com</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>tippy-4</value>
+      <value> faux-selection-indicator</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>nickbiz060+autoprovider@...</value>
+      <value>Attendees:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;users-wrapper&quot;)/section[@class=&quot;we-card we-mt-1 users-card&quot;]/div[@class=&quot;we-card-body&quot;]/table[@class=&quot;we-table we-table-wrap-lg  we-table-small&quot;]/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;we-text-word-break&quot;]/span[1]</value>
+      <value>id(&quot;events_edit_wdudowdpfk_new_event&quot;)/section[@class=&quot;event-type-specific event-type-session event-participants&quot;]/fieldset[@class=&quot;event-section-associable-users  event-type-specific event-type-session&quot;]/fieldset[@class=&quot;input-field-container form-group we-remove-block we-remove-block-labeled&quot;]/label[@class=&quot;input-wrapper&quot;]/div[@class=&quot;faux-select-wrapper&quot;]/span[@class=&quot;faux-selection-indicator&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[7]/span</value>
+      <value>//form[@id='events_edit_wdudowdpfk_new_event']/section/fieldset[2]/fieldset/label/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='professional_2018'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dollar Sched'])[2]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provider'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FND OrgAdmin 1'])[2]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wecounsel Pr...'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Determine location from attendees'])[2]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes/Active'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='alexc+autoprovider@...']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WeCounsel Private Practice - Location 2'])[4]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[7]/span</value>
+      <value>//fieldset[2]/fieldset/label/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='events_edit_ysmtaqbkip_new_event']/section/fieldset[2]/fieldset/label/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='events_edit_htkghhhwgt_new_event']/section/fieldset[2]/fieldset/label/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

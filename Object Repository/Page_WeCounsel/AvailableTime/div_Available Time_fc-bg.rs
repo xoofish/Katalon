@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Available Time_fc-bg</name>
+   <tag></tag>
+   <elementGuidId>88ea180a-15ee-442c-a3c2-f6ae6b1c0aaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[5]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fc-bg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;calendar&quot;)/div[@class=&quot;fc-view-container&quot;]/div[@class=&quot;fc-view fc-agendaWeek-view fc-agenda-view&quot;]/table[1]/tbody[@class=&quot;fc-body&quot;]/tr[1]/td[@class=&quot;fc-widget-content&quot;]/div[@class=&quot;fc-scroller fc-time-grid-container&quot;]/div[@class=&quot;fc-time-grid fc-unselectable&quot;]/div[@class=&quot;fc-content-skeleton&quot;]/table[1]/tbody[1]/tr[1]/td[6]/div[@class=&quot;fc-content-col&quot;]/div[@class=&quot;fc-event-container&quot;]/a[@class=&quot;fc-time-grid-event fc-v-event fc-event fc-start fc-end long-event available-time&quot;]/div[@class=&quot;fc-bg&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[5]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/div/div[2]/a[5]/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
