@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='we-button we-button-full-width-md copy-template-list-link create-new-user-note-link edit-form-link']</value>
+         <value>//body/div[@id='primary-container']/div[@id='main']/div[2]/section[1]/div[1]/div[2]/section[1]/div[1]/a[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

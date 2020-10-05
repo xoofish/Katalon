@@ -35,7 +35,7 @@ WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoProvider@gmail.com')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
 
 'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
@@ -55,9 +55,9 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Next but
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/input_Me_scheduler-search-field (1)'), 
-    'AutoClient Test')
+    'Auto Client Test')
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_AutoClient Test'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
 
@@ -209,16 +209,16 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedul
 
 WebUI.delay(10)
 
-checkAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Check AutoClient Test'))
+checkAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Auto Client Test'))
 
-if (checkAutoClient.contains('AutoClient Test')) {
+if (checkAutoClient.contains('Auto Client Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
 checkAutoProvider = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Check AutoProvider Test'))
 
-if (checkAutoProvider.contains('AutoProvider Test')) {
+if (checkAutoProvider.contains('Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -287,7 +287,7 @@ WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoClient@gmail.com')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')
 
 'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
@@ -378,7 +378,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.enhancedClick(findTestObject('Demo Workflows/Manage Patients Workflow/Page_WeCounsel/Create Notes Button'))
+WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Create New Note'))
 
 WebUI.delay(1)
 
@@ -393,4 +393,6 @@ WebUI.setText(findTestObject('Demo Workflows/Session functionality/Note function
 WebUI.delay(1)
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Note functionality/button_Save'))
+
+WebUI.acceptAlert()
 

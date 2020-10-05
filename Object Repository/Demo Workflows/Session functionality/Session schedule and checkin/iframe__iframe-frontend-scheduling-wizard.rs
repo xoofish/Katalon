@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe__iframe-wizard</name>
+   <name>iframe__iframe-frontend-scheduling-wizard</name>
    <tag></tag>
-   <elementGuidId>11c04215-8011-4b9c-8181-2413054d5565</elementGuidId>
+   <elementGuidId>3bbfe4d8-c2af-48ed-afc2-5b7a6436e960</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//iframe[3]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>iframe.iframe-frontend-scheduling-wizard</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -24,21 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>iframe-wizard</value>
+      <value>iframe-frontend-scheduling-wizard</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/session_wizard_spa?version=11.15.28#/events/new/participant/18604/wizard</value>
+      <value>/scheduler?version=1.0.0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;internal user-type-provider session_events on_demand_sessions considered-directory-used uams use-main-sidebar application-controller-session_events application-action-upcoming_sessions&quot;]/iframe[@class=&quot;iframe-wizard&quot;]</value>
+      <value>/html[1]/body[@class=&quot;internal user-type-provider application-controller-session_events session_events application-action-upcoming_sessions upcoming_sessions considered-directory-used private-practice use-main-sidebar&quot;]/iframe[@class=&quot;iframe-frontend-scheduling-wizard&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

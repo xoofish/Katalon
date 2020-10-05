@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Verify pre-session agreement</name>
+   <name>Demand Queue Workflow - Alexc</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,11 +10,11 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>02fef189-ef83-455e-8bc3-c99a54f5b4e9</testSuiteGuid>
+   <testSuiteGuid>511b928b-7c51-4bf2-b408-087e6dab97e9</testSuiteGuid>
    <testCaseLink>
-      <guid>83ec8c06-c7d0-42b7-9747-4945dc590e0d</guid>
+      <guid>13c8148d-a8e8-4748-8d7d-2c7a14395ce5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo Workflows/Session functionality workflows/Verify Pre-session agreement</testCaseId>
+      <testCaseId>Test Cases/Demo Workflows/Demand Queue Workflow/Demand Queue Workflow - Alexc</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
