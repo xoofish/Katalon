@@ -64,9 +64,9 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-sess
 
 WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/type user input'), 'UAMS - Client Test')
+WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/type user input'), 'UAMS Client Test')
 
-'searches for UAMS - Client Test'
+'searches for UAMS Client Test'
 WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/type user input'), Keys.chord(
         Keys.ENTER))
 
@@ -119,36 +119,36 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-sess
 
 WebUI.delay(5)
 
-clientTest = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_UAMS - Client Test'))
+clientTest = WebUI.getText(findTestObject('Page_University of Arkansas for Medical Sciences/a_UAMS Client Test'))
 
 'checks client'
-if (clientTest.contains('UAMS - Client Test')) {
+if (clientTest.contains('UAMS Client Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-providerTest = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_UAMS - Provider Test'))
+providerTest = WebUI.getText(findTestObject('Page_University of Arkansas for Medical Sciences/a_UAMS Provider Test'))
 
 'checks provider'
-if (providerTest.contains('UAMS - Provider Test')) {
+if (providerTest.contains('UAMS Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-Telehealth = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_Telehealth'))
+not_run: Telehealth = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_Telehealth'))
 
 'checks telehealth'
-if (Telehealth.contains('Telehealth')) {
+not_run: if (Telehealth.contains('Telehealth')) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
-Confirmed = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_Confirmed'))
+not_run: Confirmed = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_Confirmed'))
 
 'checks confirmed'
-if (Confirmed.contains('Confirmed')) {
+not_run: if (Confirmed.contains('Confirmed')) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
 'checks video session'
@@ -219,10 +219,10 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-sess
 
 WebUI.delay(1)
 
-providercheck = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/1Client portion/a_UAMS - Provider Test'))
+providercheck = WebUI.getText(findTestObject('Page_University of Arkansas for Medical Sciences/a_UAMS Provider Test'))
 
 'checks provider'
-if (providercheck.contains('UAMS - Provider Test')) {
+if (providercheck.contains('UAMS Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
