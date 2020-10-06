@@ -46,10 +46,10 @@ WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All therapists d
 'Selects autoprovider test as provider'
 WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Dr. Auto Provider Test'))
 
-String autoprovider = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_AutoProvider Test checker'))
+String autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
 
 'checks if autoprovider test is listed'
-if (autoprovider.contains('AutoProvider Test')) {
+if (autoprovider.contains('Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -60,9 +60,9 @@ WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All event status
 WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Confirmed'))
 
 'checks if autoprovider test is listed'
-autoprovider = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_AutoProvider Test checker'))
+autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
 
-if (autoprovider.contains('AutoProvider Test')) {
+if (autoprovider.contains('Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -80,10 +80,10 @@ WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All event status
 'Selects cancelled sessions filter'
 WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Cancelled'))
 
-autoprovider = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_AutoProvider Test checker'))
+autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
 
 'checks if autoprovider test is listed'
-if (autoprovider.contains('AutoProvider Test')) {
+if (autoprovider.contains('Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

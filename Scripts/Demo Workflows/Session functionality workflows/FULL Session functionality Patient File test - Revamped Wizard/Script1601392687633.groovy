@@ -35,7 +35,7 @@ WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoProvider@gmail.com')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
 
 'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
@@ -55,9 +55,9 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Next but
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/input_Me_scheduler-search-field (1)'), 
-    'AutoClient Test')
+    'Auto Client Test')
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_AutoClient Test'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
 
@@ -199,7 +199,7 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters button'))
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters AutoClient Test in attendees'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters for option_Auto Client Test'))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters Confirmed session status'))
 
@@ -209,16 +209,16 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedul
 
 WebUI.delay(10)
 
-checkAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Check AutoClient Test'))
+checkAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Auto Client Test'))
 
-if (checkAutoClient.contains('AutoClient Test')) {
+if (checkAutoClient.contains('Auto Client Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-checkAutoProvider = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Check AutoProvider Test'))
+checkAutoProvider = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Dr. Auto Provider Test'))
 
-if (checkAutoProvider.contains('AutoProvider Test')) {
+if (checkAutoProvider.contains('Dr. Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -285,14 +285,18 @@ DriverFactory.changeWebDriver(driver2)
 
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
+WebUI.maximizeWindow()
+
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'nickbiz060+AutoClient@gmail.com')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')
 
 'Telehealth321'
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
 
 WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
+WebUI.delay(2)
 
 not_run: clientAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Client check AutoClient Test'))
 
