@@ -23,6 +23,8 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Messaging Center1
 'Clicks on most recent message\r\n'
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Moby Dick Test'))
 
+WebUI.delay(3)
+
 'Gathers text of paragraph'
 def text = WebUI.getText(findTestObject('Page_WeCounsel/Moby Dick Paragraph'))
 

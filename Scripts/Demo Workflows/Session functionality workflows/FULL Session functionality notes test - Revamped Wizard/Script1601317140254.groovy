@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Next but
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/input_Me_scheduler-search-field (1)'), 
+WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
     'Auto Client Test')
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
@@ -177,14 +177,14 @@ WebUI.selectOptionByIndex(findTestObject('Demo Workflows/Org admin checkin as pa
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
 
-WebUI.delay(2)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_WeCounsel/schedule check/select_Select service typeORG - Session 60WC PP Coffee'))
+not_run: WebUI.click(findTestObject('Page_WeCounsel/schedule check/select_Select service typeORG - Session 60WC PP Coffee'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/schedule check/select_Select service typeORG - Session 60W_5f056a'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/schedule check/select_Select service typeORG - Session 60W_5f056a'), 
     '1389', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/schedule check/select_Select organizationWecounsel Private_d24de3'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/schedule check/select_Select organizationWecounsel Private_d24de3'), 
     '1', true)
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Next'))
@@ -199,7 +199,7 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters button'))
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters AutoClient Test in attendees'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters for option_Auto Client Test'))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters Confirmed session status'))
 

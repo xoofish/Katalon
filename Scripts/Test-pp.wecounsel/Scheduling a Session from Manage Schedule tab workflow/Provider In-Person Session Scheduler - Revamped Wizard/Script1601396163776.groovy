@@ -32,7 +32,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Demo Workflows/Sched
 
 WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/Demo Workflows/Scheduler/input_Me_scheduler-search-field'), 'auto client test')
+WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
+    'auto client test')
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
 
@@ -81,10 +82,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/Avail
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/Checker/select_Select service typeORG - Session 60W_5f056a'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/Checker/select_Select service typeORG - Session 60W_5f056a'), 
     '1469', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Demo Workflows/Scheduler/select_Select organizationWecounsel Private_d24de3'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Demo Workflows/Scheduler/select_Select organizationWecounsel Private_d24de3'), 
     '1', true)
 
 WebUI.delay(10)

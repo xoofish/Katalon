@@ -126,7 +126,7 @@ if (now.contains('NOW')) {
 String name = WebUI.getText(findTestObject('Demo Workflows/Meet with a provider now/Checker name UAMS - Client Test'))
 
 'checks to see if name is uams client'
-if (name.contains('UAMS - Client Test')) {
+if (name.contains('UAMS Client Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

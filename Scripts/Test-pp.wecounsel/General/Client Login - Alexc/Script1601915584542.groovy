@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 'Email used for all wecounsel client testing\r\n'
