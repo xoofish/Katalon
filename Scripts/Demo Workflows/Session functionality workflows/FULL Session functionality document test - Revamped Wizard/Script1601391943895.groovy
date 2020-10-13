@@ -191,9 +191,9 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/butt
 
 WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Next'))
-
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Finish'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Next'))
 
 WebUI.delay(10)
 
