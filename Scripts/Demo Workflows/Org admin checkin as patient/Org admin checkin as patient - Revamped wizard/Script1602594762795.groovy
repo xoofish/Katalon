@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Session 
 
 WebUI.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Next button'))
+WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/button_Next_NEWSCHED'))
 
 'includes org admin in session'
 WebUI.click(findTestObject('Testing/Page_WeCounsel/Page_WeCounsel/i_Include me_toggle'))
@@ -53,7 +53,12 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
     'Auto Client Test')
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/li_Auto Client Test_NEWSCH'))
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
 
@@ -173,7 +178,7 @@ WebUI.selectOptionByIndex(findTestObject('Demo Workflows/Org admin checkin as pa
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 not_run: WebUI.click(findTestObject('Page_WeCounsel/schedule check/select_Select service typeORG - Session 60WC PP Coffee'))
 
@@ -184,7 +189,7 @@ not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCoun
     '1', true)
 
 'selects service type'
-WebUI.selectOptionByIndex(findTestObject('Demo Workflows/Org admin checkin as patient/Select service type'), 1)
+not_run: WebUI.selectOptionByIndex(findTestObject('Demo Workflows/Org admin checkin as patient/Select service type'), 1)
 
 WebUI.delay(10)
 
@@ -204,7 +209,7 @@ not_run: WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient
 WebUI.delay(10)
 
 'searches for autoclient test'
-WebUI.sendKeys(findTestObject('Demo Workflows/Org admin checkin as patient/User search bar'), 'AutoClient Test')
+WebUI.sendKeys(findTestObject('Demo Workflows/Org admin checkin as patient/User search bar'), 'Auto Client Test')
 
 WebUI.sendKeys(findTestObject('Demo Workflows/Org admin checkin as patient/User search bar'), Keys.chord(Keys.ENTER))
 
@@ -219,34 +224,34 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/option_W
 
 WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Apply filters button'))
 
-String checkDate = WebUI.getText(findTestObject('Demo Workflows/Org admin checkin as patient/check Date Time'))
+not_run: String checkDate = WebUI.getText(findTestObject('Demo Workflows/Org admin checkin as patient/check Date Time'))
 
-String timeSplit = checkDate.split(' at ')[1]
+not_run: String timeSplit = checkDate.split(' at ')[1]
 
-println('timeSplit ' + timeSplit)
+not_run: println('timeSplit ' + timeSplit)
 
-println('time ' + time)
+not_run: println('time ' + time)
 
-String date = checkDate.split(' at ')[0]
+not_run: String date = checkDate.split(' at ')[0]
 
-println('date ' + date)
+not_run: println('date ' + date)
 
 'checks time of session'
-if (timeSplit.contains(time)) {
+not_run: if (timeSplit.contains(time)) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
-Date day = new Date()
+not_run: Date day = new Date()
 
-String dayday = day.format('M-dd-yyyy')
+not_run: String dayday = day.format('M-dd-yyyy')
 
-println('dayday ' + dayday)
+not_run: println('dayday ' + dayday)
 
 'checks date of session'
-if (date.contains(dayday)) {
+not_run: if (date.contains(dayday)) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
 String checkClient = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
