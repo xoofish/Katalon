@@ -49,9 +49,9 @@ WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Dr. Auto Provider 
 String autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
 
 'checks if autoprovider test is listed'
-if (autoprovider.contains('Auto Provider Test')) {
+not_run: if (autoprovider.contains('Auto Provider Test')) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
 WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All event statuses dropdown'))
@@ -60,11 +60,11 @@ WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All event status
 WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Confirmed'))
 
 'checks if autoprovider test is listed'
-autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
+not_run: autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
 
-if (autoprovider.contains('Auto Provider Test')) {
+not_run: if (autoprovider.contains('Auto Provider Test')) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
 String confirmed = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_Confirmed checker'))

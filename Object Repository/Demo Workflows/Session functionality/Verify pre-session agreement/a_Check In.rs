@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td[9]/a</value>
+         <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td[10]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.we-button-small.we-button-full-width-lg-up.we-button.we-check-in-link.wesession-checkin.modal-confirm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-modal-confirm</name>
       <type>Main</type>
-      <value>Do you want to enter the session and send a notification to UAMS - Client Test that you are ready?</value>
+      <value>Do you want to enter the session and send a notification to UAMS Client Test that you are ready?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/event/check_in/create?event_id=23992</value>
+      <value>/event/check_in/create?event_id=25566</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +64,13 @@
       <name>data-original-title</name>
       <type>Main</type>
       <value>Check Into Session</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tippy-3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,14 +84,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wesessions-wrapper&quot;)/table[@class=&quot;we-table we-table-wrap-lg upcoming-sessions&quot;]/tbody[1]/tr[@class=&quot;upcoming-session-23992&quot;]/td[@class=&quot;action&quot;]/a[@class=&quot;we-button-small we-button-full-width-lg-up we-button we-check-in-link wesession-checkin modal-confirm&quot;]</value>
+      <value>id(&quot;wesessions-wrapper&quot;)/table[@class=&quot;we-table we-table-wrap-lg upcoming-sessions&quot;]/tbody[1]/tr[@class=&quot;upcoming-session-25566&quot;]/td[@class=&quot;action&quot;]/a[@class=&quot;we-button-small we-button-full-width-lg-up we-button we-check-in-link wesession-checkin modal-confirm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td[9]/a</value>
+      <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td[10]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +105,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telehealth'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmed'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telehealth'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,13 +133,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/event/check_in/create?event_id=23992')])[2]</value>
+      <value>(//a[contains(@href, '/event/check_in/create?event_id=25566')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[9]/a</value>
+      <value>//td[10]/a</value>
    </webElementXpaths>
 </WebElementEntity>
