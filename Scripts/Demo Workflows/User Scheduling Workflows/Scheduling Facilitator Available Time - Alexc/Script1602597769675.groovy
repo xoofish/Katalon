@@ -79,7 +79,7 @@ WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_Attendees 2'))
 'selects client two test'
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client Two Test'))
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Invite Guest by Email'))
 
@@ -102,7 +102,7 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 WebUI.delay(2)
 
 'clicks on newly created appointment'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 2pm appointment-rev'))
+WebUI.click(findTestObject('Demo Workflows/Scheduler/Check 2pm appointment-debugged'))
 
 WebUI.delay(3)
 
