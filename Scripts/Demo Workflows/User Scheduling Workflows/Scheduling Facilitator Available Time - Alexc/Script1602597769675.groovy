@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Demo Workflows/Scheduler/Filters Button'))
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Wecounsel Private Practice_faux-selection-indicator'))
 
 'selects wecounsel private practice for org'
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/li_Wecounsel Private Practice'))
+WebUI.click(findTestObject('Demo Workflows/Scheduler/li_Wecounsel Private Practice'))
 
 WebUI.delay(5)
 

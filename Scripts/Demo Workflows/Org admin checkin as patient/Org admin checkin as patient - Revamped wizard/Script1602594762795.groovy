@@ -277,7 +277,8 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Check In
 
 WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Yes button for permission to check in'))
 
+WebUI.delay(3)
+
 'starts session'
-WebUI.verifyElementPresent(findTestObject('Demo Workflows/Org admin checkin as patient/Start Session button after login'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Demo Workflows/Session functionality/a_Start Session_PEXIP'), 0)
 

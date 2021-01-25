@@ -91,9 +91,9 @@ if (autoprovider.contains('Auto Provider Test')) {
 String cancelled = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_Cancelled checker'))
 
 'Checks for cancelled sessions'
-if (cancelled.contains('Cancelled')) {
+not_run: if (cancelled.contains('Cancelled')) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
 WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All therapists dropdown'))

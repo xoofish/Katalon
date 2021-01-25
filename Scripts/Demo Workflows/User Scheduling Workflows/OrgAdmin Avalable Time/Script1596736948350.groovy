@@ -51,12 +51,15 @@ if (Text.contains('alexc+autoprovider')) {
     KeywordUtil.markFailedAndStop()
 }
 
-WebUI.click(findTestObject('Demo Workflows/Scheduler/AutoProvider elipses dropdown'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/a_Dr. Auto Provider Test_we-dropdown-toggle-no-icon we-dropdown-toggle'))
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
 'Selects schedule in autoprovider options'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Org admin - provider dropdown view schedule'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/span_View Schedule_fa fa-calendar we-mr-1'))
+
+'Delay to view schedule of provider'
+WebUI.delay(10)
 
 'navigates to next week'
 WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
