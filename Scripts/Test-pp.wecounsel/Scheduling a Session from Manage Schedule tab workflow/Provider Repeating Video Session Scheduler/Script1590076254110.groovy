@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Session'))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_WeCounsel/event type span'))
+not_run: WebUI.click(findTestObject('Page_WeCounsel/event type span'))
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Next'))
 

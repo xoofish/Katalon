@@ -30,7 +30,7 @@ WebUI.uploadFile(findTestObject('Demo Workflows/Document Management Workflow/Lib
 'upload'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Upload button'))
 
-WebUI.delay(15)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'))
 

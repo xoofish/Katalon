@@ -104,7 +104,7 @@ WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Notes Button
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Create Notes Button'))
+WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/a_Create New Note_UPDATE_BUTTON'))
 
 'create a new blank note'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Create Blank Note Button'))

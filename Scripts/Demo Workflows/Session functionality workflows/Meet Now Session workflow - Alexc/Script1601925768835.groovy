@@ -77,7 +77,7 @@ robot.keyPress(KeyEvent.VK_ENTER)
 
 WebUI.delay(7)
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Invite Attendees button'))
+WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/a_Invite Attendees_UPDATED'))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Get to link invite'))
 

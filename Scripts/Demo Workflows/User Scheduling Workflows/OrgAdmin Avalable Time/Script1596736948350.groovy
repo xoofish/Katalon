@@ -103,7 +103,7 @@ WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_Attendees 2'))
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client Two Test'))
 
 'selects video session'
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
 
 not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/AvailableTime/form_Available Time1. Who are you meeting w_ed1679'))
 
