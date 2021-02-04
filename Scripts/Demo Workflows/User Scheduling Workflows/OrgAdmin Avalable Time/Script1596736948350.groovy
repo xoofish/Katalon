@@ -34,14 +34,16 @@ WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/a_My Schedule'))
 
 'Navigates to user management'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/User Management button'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/User Management button'))
 
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Providers button'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Scheduler/Providers button'))
 
 'Searches for Auto Provider Test'
-WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), 'Auto Provider Test')
+not_run: WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), 'Auto Provider Test')
 
-WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), Keys.chord(Keys.ENTER))
+not_run: WebUI.sendKeys(findTestObject('Demo Workflows/Scheduler/Provider Search bar'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(10)
 
 String Text = WebUI.getText(findTestObject('Demo Workflows/Scheduler/AutoProvider Email'), FailureHandling.STOP_ON_FAILURE)
 
