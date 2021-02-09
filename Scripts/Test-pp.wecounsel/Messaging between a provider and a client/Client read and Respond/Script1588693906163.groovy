@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.delay(5)
+
 'Navigates to message center '
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Messaging Center1'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[7]/div/div[2]/a[7]/div/div[2]</value>
+         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[7]/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -49,28 +49,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[7]/div/div[2]/a[7]/div/div[2]</value>
+      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[7]/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[43]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[34]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[42]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[33]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[44]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[35]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +84,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[7]/div/div[2]/a[7]/div/div[2]</value>
+      <value>//td[6]/div/div[2]/a[7]/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

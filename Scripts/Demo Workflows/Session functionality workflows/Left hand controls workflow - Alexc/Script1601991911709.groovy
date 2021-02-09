@@ -21,12 +21,9 @@ import org.openqa.selenium.Alert as Alert
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-System.setProperty('webdriver.chrome.driver', 'C:\\Program Files (x86)\\Katalon_Studio_Windows_64-7.6.2\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe')
+WebUI.openBrowser('')
 
-'opens first crome driver'
-WebDriver driver1 = new ChromeDriver()
-
-DriverFactory.changeWebDriver(driver1)
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 

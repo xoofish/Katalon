@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td/div/a</value>
+         <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>

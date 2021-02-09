@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Me'])[1]/following::span[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Patients'])[1]/following::div[7]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -91,6 +91,18 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[2]</value>
+      <value>//li/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Patients'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose attendees'])[1]/following::span[1]</value>
    </webElementXpaths>
 </WebElementEntity>

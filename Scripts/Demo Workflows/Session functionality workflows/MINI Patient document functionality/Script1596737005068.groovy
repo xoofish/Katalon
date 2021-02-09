@@ -32,7 +32,7 @@ WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Patient
 
 'CHANGE FILE PATH uploads file to attachments'
 WebUI.uploadFile(findTestObject('Demo Workflows/Session functionality/Patient doc functionality/Attach a new document'), 
-    'C:\\Users\\hawki\\Desktop\\WCPP\\sample.pdf')
+    'C:\\Users\\CarldeSoto\\Documents\\sample.pdf')
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Patient doc functionality/button_Send'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Auto Client Test')]</value>
+         <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

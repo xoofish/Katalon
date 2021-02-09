@@ -11,7 +11,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Attendee' or . = 'Attendee')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Attendees:</value>
+      <value>Attendee</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

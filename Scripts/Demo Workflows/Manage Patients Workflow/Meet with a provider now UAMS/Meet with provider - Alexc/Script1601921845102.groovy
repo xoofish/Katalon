@@ -20,16 +20,11 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-System.setProperty('webdriver.chrome.driver', 'C:\\Program Files (x86)\\Katalon_Studio_Windows_64-7.6.2\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe')
-
-WebDriver driver1 = new ChromeDriver()
-
-'opens first chrome window'
-DriverFactory.changeWebDriver(driver1)
-
-WebUI.navigateToUrl('https://test-uams-med.wecounsel.com/users/sign_in')
+WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://test-uams-med.wecounsel.com/users/sign_in')
 
 'UAMS client acct'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_useremail'), 

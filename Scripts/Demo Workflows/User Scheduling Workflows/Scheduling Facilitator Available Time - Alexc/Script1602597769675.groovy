@@ -117,7 +117,7 @@ if (member1.contains('AutoClient Test')) {
 String member2 = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Dr. Auto Provider Test'))
 
 'checks autoprovider test attendee'
-if (member2.contains('AutoProvider Test')) {
+if (member2.contains('Dr. Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -125,7 +125,7 @@ if (member2.contains('AutoProvider Test')) {
 String member3 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Client Two Test'))
 
 'checks client 2 test attendee'
-if (member3.contains('Client 2 Test')) {
+if (member3.contains('Client Two Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

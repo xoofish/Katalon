@@ -21,10 +21,10 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.delay(20)
 
 'Checks unauthenticated user mailbox for email'
-String text = CustomKeywords.'com.testwithhari.katalon.plugins.Gmail.readLatestEMailBodyContent'('alexuamsqa@gmail.com', 
+String mailcontent = CustomKeywords.'com.testwithhari.katalon.plugins.Gmail.readLatestEMailBodyContent'('alexuamsqa@gmail.com', 
     'Welcomeac!', 'Inbox')
 
-println(text)
+//println(text)
 
 'Checks contents of email against expected'
 if (text.contains('john has scheduled a video session with you for')) {

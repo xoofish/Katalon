@@ -224,9 +224,9 @@ WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/option_W
 
 WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Apply filters button'))
 
-not_run: String checkDate = WebUI.getText(findTestObject('Demo Workflows/Org admin checkin as patient/check Date Time'))
-
 not_run: String timeSplit = checkDate.split(' at ')[1]
+
+not_run: String checkDate = WebUI.getText(findTestObject('Demo Workflows/Org admin checkin as patient/check Date Time'))
 
 not_run: println('timeSplit ' + timeSplit)
 

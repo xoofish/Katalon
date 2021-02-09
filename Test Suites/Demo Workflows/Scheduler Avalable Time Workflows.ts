@@ -23,10 +23,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Demo Workflows/User Scheduling Workflows/Scheduling Facilitator Available Time</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>587834ea-d785-430f-bd43-3657aba1d2e6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo Workflows/User Scheduling Workflows/OrgAdmin Avalable Time</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

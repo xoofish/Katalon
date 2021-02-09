@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal
 WebUI.delay(1)
 
 'CHANGE "INPUT" TO FILE PATH Selects local file (Sample.pdf)'
-WebUI.uploadFile(findTestObject('Demo Workflows/Document Management Workflow/personal Select file'), 'C:\\Users\\Alex Cullor\\Katalon Studio\\sample.pdf')
+WebUI.uploadFile(findTestObject('Demo Workflows/Document Management Workflow/personal Select file'), 'C:\\Users\\CarldeSoto\\Documents\\sample.pdf')
 
 'upload'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Personal upload button'))

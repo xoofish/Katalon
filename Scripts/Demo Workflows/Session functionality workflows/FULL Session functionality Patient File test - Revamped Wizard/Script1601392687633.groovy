@@ -23,11 +23,7 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-System.setProperty('webdriver.chrome.driver', 'C:\\Program Files (x86)\\Katalon_Studio_Windows_64-7.6.2\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe')
-
-WebDriver driver1 = new ChromeDriver()
-
-DriverFactory.changeWebDriver(driver1)
+WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 

@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Stored Docum
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Upload Document'))
 
 'CHANGE "INPUT" TO FILE PATH Selects local file (Sample.pdf)'
-WebUI.uploadFile(findTestObject('Demo Workflows/Manage Patients Workflow/a_Select file'), 'C:\\Users\\Alex Cullor\\Katalon Studio\\sample.pdf')
+WebUI.uploadFile(findTestObject('Demo Workflows/Manage Patients Workflow/a_Select file'), 'C:\\Users\\CarldeSoto\\Documents\\sample.pdf')
 
 'uploads doc'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/button_Upload'))
