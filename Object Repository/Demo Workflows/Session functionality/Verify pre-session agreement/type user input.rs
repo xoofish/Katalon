@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/input</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Patients'])[1]/following::div[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -80,20 +80,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='user-1596725716633']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Patients'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='user-group-1596725716633']/div/div/div[2]/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose attendees'])[1]/following::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//span/div</value>
    </webElementXpaths>
 </WebElementEntity>

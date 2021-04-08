@@ -23,11 +23,11 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
+WebUI.enableSmartWait()
 
 WebUI.delay(2)
 
@@ -52,6 +52,8 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
     'Auto Client Test')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
 
@@ -369,8 +371,6 @@ WebUI.delay(2)
 DriverFactory.changeWebDriver(driver1)
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Document Test/a_Saved Documents'))
-
-WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Document Test/a_samplepdf'))
 

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>personal sample pdf delete</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>0cdfb37a-7b23-41ed-ab66-8f79f6e81e20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Delete')]</value>
+         <value>//tr[@id='document_13833']/td[2]/div/div/ul/li[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -94,14 +94,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("document_12016")/td[@class="we-text-md-center"]/div[@class="fill-out-action we-dropdown"]/div[@class="we-dropdown-menu-wrapper"]/ul[@class="we-text-left we-dropdown-menu"]/li[@class="we-dropdown-menu-item"]/a[@class="document-delete"]</value>
+      <value>id(&quot;document_12016&quot;)/td[@class=&quot;we-text-md-center&quot;]/div[@class=&quot;fill-out-action we-dropdown&quot;]/div[@class=&quot;we-dropdown-menu-wrapper&quot;]/ul[@class=&quot;we-text-left we-dropdown-menu&quot;]/li[@class=&quot;we-dropdown-menu-item&quot;]/a[@class=&quot;document-delete&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='document_12016']/td[2]/div/div/ul/li[4]/a</value>
+      <value>//tr[@id='document_13833']/td[2]/div/div/ul/li[5]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,14 +115,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rename'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,13 +150,19 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/documents/12016')])[3]</value>
+      <value>(//a[contains(@href, '/documents/13833')])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/div/div/ul/li[4]/a</value>
+      <value>//td[2]/div/div/ul/li[5]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//tr[@id='document_13839']/td[2]/div/div/ul/li[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='AutoClient Test'])[1]/following::span[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Patients'])[1]/following::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

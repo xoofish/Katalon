@@ -21,11 +21,11 @@ import org.openqa.selenium.Alert as Alert
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
+WebUI.enableSmartWait()
 
 WebUI.delay(2)
 

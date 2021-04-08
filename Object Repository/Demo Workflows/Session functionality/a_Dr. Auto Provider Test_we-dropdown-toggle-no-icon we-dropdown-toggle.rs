@@ -6,12 +6,11 @@
    <elementGuidId>42122184-d898-4fcd-8972-b4f52bf2067b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Created'])[1]/following::a[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[4]/div/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

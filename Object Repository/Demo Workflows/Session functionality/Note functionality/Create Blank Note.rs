@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='we-button we-button-full-width-md copy-template-list-link create-new-user-note-link edit-form-link']</value>
+         <value>//a[contains(text(),'Create Blank Note')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -94,13 +94,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/user/notes/new/15709?event_id=23560')]</value>
+      <value>//a[contains(@href, '/user/notes/new/18528?event_id=31380')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//dialog[3]/div/div/div/a</value>
+      <value>//dialog[2]/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

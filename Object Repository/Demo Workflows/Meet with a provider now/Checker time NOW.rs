@@ -1,13 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Checker time NOW</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>766c9520-f0d9-4b9a-b5f2-2a335bcaac46</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+      NOW
+' or . = '
+      NOW
+')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign'])[1]/following::td[1]</value>
+         <value>//*/text()[normalize-space(.)='NOW']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -47,7 +55,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("event_22702")/td[@class="we-text-lg-center"]</value>
+      <value>id(&quot;event_22702&quot;)/td[@class=&quot;we-text-lg-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

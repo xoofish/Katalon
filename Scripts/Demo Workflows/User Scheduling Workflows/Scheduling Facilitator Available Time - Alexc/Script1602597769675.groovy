@@ -16,11 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
+WebUI.enableSmartWait()
 
 'Scheduling facilitator account'
 WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoschedulingfacilitator@visuwell.net')
@@ -44,8 +44,6 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedul
 'selects wecounsel private practice for org'
 WebUI.click(findTestObject('Demo Workflows/Scheduler/li_Wecounsel Private Practice'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_ P2B_faux-selection-indicator'))
 
 'selects autoprovider test'
@@ -53,19 +51,14 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedul
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Filters Button'))
 
-WebUI.delay(5)
-
 'this is for a workaround to reopen the filters tab after closing'
 WebUI.mouseOver(findTestObject('Demo Workflows/Scheduler/Filters Button'))
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Filter Apply'))
 
-WebUI.delay(10)
-
 WebUI.click(findTestObject('Demo Workflows/Scheduler/next week arrow'))
 
-'clicks 5:00-6:00pm'
-WebUI.click(findTestObject('Demo Workflows/Scheduler/Thursday 500 - 600'))
+WebUI.click(findTestObject('Page_WeCounsel/div_500 - 600'))
 
 WebUI.click(findTestObject('Demo Workflows/Scheduler/Attendees dropdown scheduling facilitator'))
 
@@ -149,6 +142,14 @@ if (dateTime.contains('2:00 pm')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
+
+not_run: WebUI.click(findTestObject('a_Cancel Appt'))
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('a_Cancel Appt Confirm'))
+
+not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/Checker/close appt box'))
 

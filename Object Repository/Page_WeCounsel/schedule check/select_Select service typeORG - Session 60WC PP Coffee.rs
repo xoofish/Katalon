@@ -6,12 +6,12 @@
    <elementGuidId>8072b4fb-5ca5-4055-8477-473c3809bbe6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>select.service-type</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div[2]/div/div/div[1]/div[1]/div[1]/select/option[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

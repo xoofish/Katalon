@@ -55,16 +55,16 @@
       <value>id(&quot;mute-speaker-button&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='mute-speaker-button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//div[@id='inCallButtonPanel']/div/div[2]/button</value>
    </webElementXpaths>
@@ -85,14 +85,13 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mute Mic'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/button</value>
    </webElementXpaths>

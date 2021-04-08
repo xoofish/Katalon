@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-sidebar']/ul/li[3]/a</value>
+         <value>//div[@id='main-sidebar']/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-sidebar']/ul/li[3]/a</value>
+      <value>//div[@id='main-sidebar']/ul/li[4]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,13 +94,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/calendars/15709')]</value>
+      <value>//a[contains(@href, '/calendars/18528')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//body/div/div/ul/li[3]/a</value>
+      <value>//body/div/div/ul/li[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

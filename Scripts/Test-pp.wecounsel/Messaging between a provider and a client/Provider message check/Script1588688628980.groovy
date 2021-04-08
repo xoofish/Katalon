@@ -17,6 +17,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+WebUI.maximizeWindow()
+
+WebUI.enableSmartWait()
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
 WebUI.delay(5)
 
 'Navigates to messaging center\r\n'

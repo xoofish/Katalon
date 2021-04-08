@@ -6,15 +6,15 @@
    <elementGuidId>9218f02b-a3ce-4f7b-9f54-8b083d782829</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.modal-container.scheduler-main-content</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//iframe[3]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>iframe.iframe-frontend-scheduling-wizard</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

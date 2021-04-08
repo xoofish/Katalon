@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>input_Please Log In_useremail</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>d53ac2a3-257b-433e-9663-4ce714d383ea</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'user_email_field_txfugxyumx' and @placeholder = 'Email' and @type = 'email' and @name = 'user[email]']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div/form/fieldset/label/input</value>
@@ -59,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("user_email_field_txfugxyumx")</value>
+      <value>id(&quot;user_email_field_txfugxyumx&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -179,5 +183,17 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='user_email_field_fjmmjgesvv']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//input[@id='user_email_field_vkzvgefeeg']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id='main']/div/form/fieldset/label/input</value>
    </webElementXpaths>
 </WebElementEntity>

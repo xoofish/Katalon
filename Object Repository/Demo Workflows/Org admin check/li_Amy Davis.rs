@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='faux-select-selection-organization-provider']/li[52]</value>
+      <value>//ul[@id='faux-select-selection-organization-provider']/li[51]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[52]</value>
+      <value>//li[51]</value>
    </webElementXpaths>
 </WebElementEntity>

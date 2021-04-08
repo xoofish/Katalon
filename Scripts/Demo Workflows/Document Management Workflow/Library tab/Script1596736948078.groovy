@@ -16,6 +16,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+WebUI.enableSmartWait()
+
+WebUI.maximizeWindow()
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
 'Navigates to document center'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/a_Document Center0'))
 
@@ -32,7 +46,7 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library 
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'))
+WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'),FailureHandling.OPTIONAL)
 
 'opens the document'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Open Sample pdf'))

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']/div/ul/li[2]/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Upcoming Sessions'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

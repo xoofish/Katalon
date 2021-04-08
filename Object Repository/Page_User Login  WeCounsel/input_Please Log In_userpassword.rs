@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>input_Please Log In_userpassword</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>e5cbf5a7-aebc-4e15-b540-7ab147a36573</elementGuidId>
    <selectorCollection>
       <entry>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("user_password_field_ldnhgthfgh")</value>
+      <value>id(&quot;user_password_field_ldnhgthfgh&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -186,5 +186,17 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='user_password_field_pjpkawkadf']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//input[@id='user_password_field_hbfahgyitz']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id='main']/div/form/fieldset[2]/label/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -13,23 +13,36 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import org.openqa.selenium.Alert as Alert
 import java.awt.Robot as Robot
+import java.awt.event.InputEvent as InputEvent
 import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.By as By
+import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
+import org.openqa.selenium.remote.DesiredCapabilities as DesiredCapabilities
+import org.openqa.selenium.remote.RemoteWebDriver as RemoteWebDriver
+import java.net.URL as URL
+import java.util.HashMap as HashMap
+import java.util.Map as Map
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.thoughtworks.selenium.Selenium as Selenium
+import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
+import static org.junit.Assert.*
+import java.util.regex.Pattern as Pattern
+import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
-
-WebUI.delay(2)
+WebUI.enableSmartWait()
 
 WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
 
@@ -38,176 +51,70 @@ WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please L
 
 WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 
-WebUI.delay(2)
-
 WebUI.mouseOver(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Schedule'))
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Session'))
 
-WebUI.delay(2)
+WebUI.waitForElementClickable(findTestObject('Demo Workflows/Org admin checkin as patient/Next button'), 5)
 
 WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Next button'))
 
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
-    'Auto Client Test')
+    'auto')
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
+WebUI.waitForElementClickable(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'), 
+    5)
+
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
-
-Date today = new Date()
-
-String Time = today.format('H')
-
-int nowTime = Time.toInteger()
-
-println(nowTime)
-
-int setTime
-
-String time = ''
-
-if (nowTime == 24) {
-    setTime = 12
-
-    time = '1:00 am'
-} else if (nowTime == 1) {
-    setTime = 24
-
-    time = '2:00 am'
-} else if (nowTime == 2) {
-    setTime = 36
-
-    time = '3:00 am'
-} else if (nowTime == 3) {
-    setTime = 48
-
-    time = '4:00 am'
-} else if (nowTime == 4) {
-    setTime = 60
-
-    time = '5:00 am'
-} else if (nowTime == 5) {
-    setTime = 72
-
-    time = '6:00 am'
-} else if (nowTime == 6) {
-    setTime = 84
-
-    time = '7:00 am'
-} else if (nowTime == 7) {
-    setTime = 96
-
-    time = '8:00 am'
-} else if (nowTime == 8) {
-    setTime = 108
-
-    time = '9:00 am'
-} else if (nowTime == 9) {
-    setTime = 120
-
-    time = '10:00 am'
-} else if (nowTime == 10) {
-    setTime = 132
-
-    time = '11:00 am'
-} else if (nowTime == 11) {
-    setTime = 144
-
-    time = '12:00 pm'
-} else if (nowTime == 12) {
-    setTime = 156
-
-    time = '1:00 pm'
-} else if (nowTime == 13) {
-    setTime = 168
-
-    time = '2:00 pm'
-} else if (nowTime == 14) {
-    setTime = 180
-
-    time = '3:00 pm'
-} else if (nowTime == 15) {
-    setTime = 192
-
-    time = '4:00 pm'
-} else if (nowTime == 16) {
-    setTime = 204
-
-    time = '5:00 pm'
-} else if (nowTime == 17) {
-    setTime = 216
-
-    time = '6:00 pm'
-} else if (nowTime == 18) {
-    setTime = 228
-
-    time = '7:00 pm'
-} else if (nowTime == 19) {
-    setTime = 240
-
-    time = '8:00 pm'
-} else if (nowTime == 20) {
-    setTime = 252
-
-    time = '9:00 pm'
-} else if (nowTime == 21) {
-    setTime = 264
-
-    time = '10:00 pm'
-} else if (nowTime == 22) {
-    setTime = 276
-
-    time = '11:00 pm'
-} else if (nowTime == 23) {
-    setTime = 0
-
-    time = '12:00 am'
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-WebUI.selectOptionByIndex(findTestObject('Demo Workflows/Org admin checkin as patient/Select time dropdown'), setTime)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/button_Next'))
 
 WebUI.delay(10)
 
-not_run: WebUI.click(findTestObject('Page_WeCounsel/schedule check/select_Select service typeORG - Session 60WC PP Coffee'))
+'robot class emulates keyboard presses'
+not_run: Robot robot = new Robot()
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/schedule check/select_Select service typeORG - Session 60W_5f056a'), 
-    '1389', true)
+not_run: robot.mouseMove(1500, 475)
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WeCounsel/schedule check/select_Select organizationWecounsel Private_d24de3'), 
-    '1', true)
+not_run: robot.mousePress(InputEvent.BUTTON1_MASK)
+
+not_run: robot.mouseRelease(InputEvent.BUTTON1_MASK)
+
+not_run: WebUI.selectOptionByIndex(findTestObject('sessionSelectOrg'), '1', FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('sessionSelectLocation'))
+
+not_run: WebUI.selectOptionByIndex(findTestObject('sessionSelectLocation'), '0', FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('sessionSelectService'))
+
+not_run: WebUI.selectOptionByIndex(findTestObject('sessionSelectService'), '0', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Next'))
 
-WebUI.delay(5)
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Next'))
-
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/schedule check/button_Finish'))
 
-WebUI.delay(10)
+not_run: WebUI.waitForElementClickable(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters button'), 
+    5)
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters button'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters button'))
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters for option_Auto Client Test'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters for option_Auto Client Test'))
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters Confirmed session status'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters Confirmed session status'))
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters ORG - Session 60 service type'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters ORG - Session 60 service type'))
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters Apply'))
+not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Filters Apply'))
 
-WebUI.delay(10)
+not_run: checkAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Auto Client Test'))
 
-checkAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Auto Client Test'))
+not_run: WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Auto Client Test'), 
+    '')
 
-if (checkAutoClient.contains('Auto Client Test')) {
+not_run: if (checkAutoClient.contains('Auto Client Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -219,176 +126,61 @@ if (checkAutoProvider.contains('Auto Provider Test')) {
     KeywordUtil.markFailedAndStop()
 }
 
-checkTimeDate = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Check timedate'))
+not_run: checkTimeDate = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Check timedate'))
 
-String timeSplit = checkTimeDate.split(' at ')[1]
+not_run: String timeSplit = checkTimeDate.split(' at ')[1]
 
-println('timeSplit ' + timeSplit)
+not_run: println('timeSplit ' + timeSplit)
 
-println('time ' + time)
+not_run: println('time ' + time)
 
-String date = checkTimeDate.split(' at ')[0]
+not_run: String date = checkTimeDate.split(' at ')[0]
 
-println('date ' + date)
+not_run: println('date ' + date)
 
-if (timeSplit.contains(time)) {
+not_run: if (timeSplit.contains(time)) {
 } else {
     not_run: KeywordUtil.markFailedAndStop()
 }
 
-Date day = new Date()
+not_run: Date day = new Date()
 
-String dayday = day.format('M-dd-yyyy')
+not_run: String dayday = day.format('M-dd-yyyy')
 
-println('dayday ' + dayday)
+not_run: println('dayday ' + dayday)
 
-if (date.contains(dayday)) {
+not_run: if (date.contains(dayday)) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/CheckIn to session button'))
 
-WebUI.delay(2)
+WebUI.waitForElementClickable(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/OK button after checkin'), 
+    5)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/OK button after checkin'))
 
-WebUI.delay(7)
+WebUI.waitForElementClickable(findTestObject('Demo Workflows/Session functionality/Note functionality/Treatment Notes right hand control'), 
+    5)
 
-Robot robot = new Robot()
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Note functionality/Treatment Notes right hand control'))
 
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Start Session button'))
-
-WebUI.delay(2)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-WebUI.delay(7)
-
-WebDriver driver2 = new ChromeDriver()
-
-DriverFactory.changeWebDriver(driver2)
-
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')
-
-'Telehealth321'
-WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
-
-WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
-
-not_run: clientAutoClient = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Client check AutoClient Test'))
-
-not_run: if (clientAutoClient.contains('AutoClient Test')) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-not_run: clientAutoProvider = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Client check AutoProvider Test'))
-
-not_run: if (clientAutoProvider.contains('AutoProvider Test')) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-not_run: clientTimeDate = WebUI.getText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Client check timedate'))
-
-not_run: String clientTime = clientTimeDate.split(' at ')[1]
-
-not_run: String clientDate = clientTimeDate.split(' at ')[0]
-
-not_run: println('clientDate ' + clientDate)
-
-not_run: if (clientTime.contains(time)) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-not_run: Date day2 = new Date()
-
-not_run: String daydayday = day2.format('M-dd-yyyy')
-
-not_run: println('dayday ' + daydayday)
-
-not_run: if (clientDate.contains(daydayday)) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/client Check In button'))
-
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/client OK button after checkin'))
-
-not_run: WebUI.delay(7)
-
-not_run: WebUI.refresh()
-
-WebUI.delay(7)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Start Session button'))
-
-WebUI.delay(2)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_TAB)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-WebUI.delay(2)
-
-WebUI.refresh()
-
-WebUI.delay(7)
-
-WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Start Session button'))
-
-WebUI.delay(2)
-
-DriverFactory.changeWebDriver(driver1)
-
-WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Note functionality/Treatment Notes right hand control'))
-
-WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Note functionality/view old note'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Note functionality/view old note'))
 
 WebUI.switchToWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Create New Note'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Create New Note'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Note functionality/Create Blank Note'))
 
-WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Note functionality/Create Blank Note'))
-
-WebUI.delay(1)
-
-WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Note functionality/Note input'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Note functionality/Note input'))
 
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Note functionality/Note input'), 'Test note input in session')
 
-WebUI.delay(1)
-
-WebUI.enhancedClick(findTestObject('Demo Workflows/Session functionality/Note functionality/button_Save'))
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Note functionality/button_Save'))
 

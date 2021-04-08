@@ -55,13 +55,6 @@
       <value>id(&quot;mute-microphone-button&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='mute-microphone-button']</value>
-   </webElementXpaths>
-   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
@@ -85,15 +78,20 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fullscreen'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@id='mute-microphone-button']</value>
    </webElementXpaths>
 </WebElementEntity>

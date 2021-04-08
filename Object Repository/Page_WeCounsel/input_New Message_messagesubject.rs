@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>input_New Message_messagesubject</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>260242df-dd1c-4ac2-b4fd-95fcc68d577e</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Subject' and @type = 'text' and @name = 'message[subject]' and @id = 'message_form_1588690039_message_subject']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//label/input</value>
@@ -59,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("message_form_1588690039_message_subject")</value>
+      <value>id(&quot;message_form_1588690039_message_subject&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='message_form_1588690039_message_subject']</value>
+      <value>//input[@id='message_form_1615240814_message_subject']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='message_form_1588690039_new_message']/fieldset/label/input</value>
+      <value>//form[@id='message_form_1615240814_new_message']/fieldset[2]/label/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

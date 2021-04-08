@@ -1,13 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Checker phone (123) 123-1234</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>6252ebbe-4cdd-4aa9-9ade-c2525c37125f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), '
+    (123) 123-1234
+') or contains(., '
+    (123) 123-1234
+'))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[2]</value>
+         <value>//td[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +36,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
@@ -40,7 +48,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("event_22702")/td[6]</value>
+      <value>id(&quot;event_22702&quot;)/td[6]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

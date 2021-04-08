@@ -6,12 +6,12 @@
    <elementGuidId>a5339b18-1de2-47b1-8823-628a485069b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='session-menu']/ul/li[3]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.edit-form-link.share-session-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='session-menu']/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Session'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='success@wecounsel.com'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/events/30016/attendee_invitations/new')]</value>
+      <value>//a[contains(@href, '/events/30714/attendee_invitations/new')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

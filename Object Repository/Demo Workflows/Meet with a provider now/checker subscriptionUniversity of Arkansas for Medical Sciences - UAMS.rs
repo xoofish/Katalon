@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>checker subscriptionUniversity of Arkansas for Medical Sciences - UAMS</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>0427dc8b-11d2-42ce-8109-7fecd91bd982</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'UAMS - UAMS') or contains(., 'UAMS - UAMS'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,19 +39,17 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-    University of Arkansas for Medical Sciences - UAMS
-</value>
+      <value>UAMS - UAMS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("event_22702")/td[@class="we-text-lg-center"]</value>
+      <value>id(&quot;event_22702&quot;)/td[@class=&quot;we-text-lg-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

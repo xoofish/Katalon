@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Library AutoClient Test in send dropdown</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>2e38ceed-4368-468f-8379-2f6de41c97ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients:'])[2]/following::li[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'AutoClient Test' or . = 'AutoClient Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("faux-select-message_form_1592333583_message_recipient_id")/li[@class="faux-option"]</value>
+      <value>id(&quot;faux-select-message_form_1592333583_message_recipient_id&quot;)/li[@class=&quot;faux-option&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

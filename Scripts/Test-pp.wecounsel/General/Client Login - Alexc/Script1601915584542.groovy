@@ -16,11 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
 
 'Email used for all wecounsel client testing\r\n'
 WebUI.setText(findTestObject('Object Repository/Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')

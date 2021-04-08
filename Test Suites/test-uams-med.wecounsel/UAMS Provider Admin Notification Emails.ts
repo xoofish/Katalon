@@ -15,24 +15,24 @@
       <guid>5fe94c82-afed-400a-b560-9adfcc6091d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Clear Emails</testCaseId>
+      <testCaseId>Test Cases/Testing/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Clear Emails</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>22506c6b-2cea-4527-9aed-39babb01c234</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Client Meet with provider</testCaseId>
+      <testCaseId>Test Cases/Testing/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Client Meet with provider</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>970819b4-e72e-4d6e-9ee2-e237e177eff9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Provider Email Check</testCaseId>
+      <testCaseId>Test Cases/Testing/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Provider Email Check</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>abf662fa-c75b-4310-81d7-028bfbbe16e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Manager Email Check</testCaseId>
+      <testCaseId>Test Cases/Testing/test-uams-med.wecounsel/UAMS Provider Admin Notification Emails/Manager Email Check</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

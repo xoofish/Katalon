@@ -17,6 +17,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+WebUI.maximizeWindow()
+
+WebUI.enableSmartWait()
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
 'Navigates to messaging center'
 WebUI.click(findTestObject('Page_WeCounsel/a_Messaging Center0'))
 
@@ -28,13 +42,10 @@ WebUI.click(findTestObject('Page_WeCounsel/span_Recipients'))
 'Selects provider test'
 WebUI.click(findTestObject('Page_WeCounsel/li_Auto Client Test_New_Message'))
 
-WebUI.click(findTestObject('Page_WeCounsel/input_Auto Client Test_message_subject'))
-
 'Sets subject'
-WebUI.setText(findTestObject('Page_WeCounsel/input_Auto Client Test_message_subject'), 'Moby Dick Save Test')
+WebUI.setText(findTestObject('li_Auto Client Test Message Save Subject'), 'Moby Dick Save Test')
 
-'Sets message content to first paragraph of moby dick from wikipedia'
-WebUI.setText(findTestObject('Page_WeCounsel/div_Auto Client Test_Message_Body'), 'Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is the sailor Ishmael\'s narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship\'s previous voyage bit off Ahab\'s leg at the knee. A contribution to the literature of the American Renaissance, the work\'s genre classifications range from late Romantic to early Symbolist. Moby-Dick was published to mixed reviews, was a commercial failure, and was out of print at the time of the author\'s death in 1891. Its reputation as a "Great American Novel" was established only in the 20th century, after the centennial of its author\'s birth. William Faulkner said he wished he had written the book himself,[1] and D. H. Lawrence called it "one of the strangest and most wonderful books in the world" and "the greatest book of the sea ever written".[2] Its opening sentence, "Call me Ishmael", is among world literature\'s most famous.[3]')
+WebUI.setText(findTestObject('Test Message Save Body'), 'Test message content')
 
 WebUI.click(findTestObject('Page_WeCounsel/button_Save_Message'))
 
@@ -50,7 +61,7 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Moby dick save te
 def text = WebUI.getText(findTestObject('Page_WeCounsel/Moby Dick Paragraph'))
 
 'checks gathered text against expected text'
-if (text.contains('Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is the sailor Ishmael\'s narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship\'s previous voyage bit off Ahab\'s leg at the knee. A contribution to the literature of the American Renaissance, the work\'s genre classifications range from late Romantic to early Symbolist. Moby-Dick was published to mixed reviews, was a commercial failure, and was out of print at the time of the author\'s death in 1891. Its reputation as a "Great American Novel" was established only in the 20th century, after the centennial of its author\'s birth. William Faulkner said he wished he had written the book himself,[1] and D. H. Lawrence called it "one of the strangest and most wonderful books in the world" and "the greatest book of the sea ever written".[2] Its opening sentence, "Call me Ishmael", is among world literature\'s most famous.[3]')) {
+if (text.contains('Test message content')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

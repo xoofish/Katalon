@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@name='button']</value>
+         <value>//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

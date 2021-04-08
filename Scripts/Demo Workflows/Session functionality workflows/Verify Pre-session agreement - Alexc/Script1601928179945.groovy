@@ -23,13 +23,11 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-uams.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-uams.wecounsel.com/users/sign_in')
-
-WebUI.delay(2)
+WebUI.enableSmartWait()
 
 'uams provider test account'
 WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+uamsprovider@visuwell.net')
@@ -39,39 +37,26 @@ WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please L
 
 WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 
-WebUI.delay(2)
-
 'navigates to manage schedule'
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_Manage Schedule'))
-
-WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/span_Schedule'))
 
 'clicks session under schedule'
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/a_Session'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/button_Next'))
+
+WebUI.setText(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/div_Type to search'), 'UAMS Client Test')
+
+WebUI.delay(2)
+
+'searches for UAMS Client Test'
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/type user input'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/button_Next'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/div_Type to search'))
-
-WebUI.delay(1)
-
-WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/type user input'), 'UAMS Client Test')
-
-'searches for UAMS Client Test'
-WebUI.sendKeys(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/type user input'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/TMP - Next button'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/TMP - Next button'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/button_Next'))
 
 WebUI.delay(1)
 
@@ -85,7 +70,7 @@ WebUI.delay(1)
 WebUI.selectOptionByIndex(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/select_TelehealthTelehealthZERO'), 
     0)
 
-WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/TMP - Next button'))
+WebUI.click(findTestObject('Demo Workflows/Session functionality/Verify pre-session agreement/button_Next'))
 
 WebUI.delay(2)
 
@@ -163,6 +148,13 @@ WebUI.delay(10)
 
 'Robot emulates keyboard presses'
 Robot robot = new Robot()
+
+robot.keyPress(KeyEvent.VK_TAB)
+
+robot.keyPress(KeyEvent.VK_TAB)
+
+'accepts chrome permissions popup'
+robot.keyPress(KeyEvent.VK_ENTER)
 
 not_run: robot.keyPress(KeyEvent.VK_TAB)
 

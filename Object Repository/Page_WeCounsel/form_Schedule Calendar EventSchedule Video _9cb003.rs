@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>form_Schedule Calendar EventSchedule Video _9cb003</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>9dba6955-cb7a-488b-a0a2-91f36705955f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='© WeCounsel 2011 - 2020'])[1]/following::form[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[3]/following::form[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -1092,7 +1092,7 @@ YearlyDailyWeeklyMonthlyYearlyWeeklyRepeats every: (days) (weeks) (months) (year
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("events_edit_pkteigialr_new_event")</value>
+      <value>id(&quot;events_edit_pkteigialr_new_event&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

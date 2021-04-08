@@ -15,6 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+WebUI.maximizeWindow()
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_User Login  WeCounsel/input_Please Log In_userpassword'), 
+    'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.enableSmartWait()
+
+'Email used for all wecounsel client testing\r\n'
+WebUI.setText(findTestObject('Object Repository/Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')
+
+WebUI.click(findTestObject('Object Repository/Page_User Login  WeCounsel/button_Log in'))
+
 'navigates to calendar'
 WebUI.click(findTestObject('Demo Workflows/Patient Functionality/My Calendar'))
 

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>personal sample pdf dropdown menu</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>8abd8dc1-3f5a-443d-aaf3-e7d0dc06a01c</elementGuidId>
    <selectorCollection>
       <entry>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("document_12016")/td[@class="we-text-md-center"]/div[@class="fill-out-action we-dropdown"]/a[@class="we-dropdown-toggle-no-icon we-dropdown-toggle"]/i[@class="fa fa-ellipsis-v we-pl-1 we-pr-1"]</value>
+      <value>id(&quot;document_12016&quot;)/td[@class=&quot;we-text-md-center&quot;]/div[@class=&quot;fill-out-action we-dropdown&quot;]/a[@class=&quot;we-dropdown-toggle-no-icon we-dropdown-toggle&quot;]/i[@class=&quot;fa fa-ellipsis-v we-pl-1 we-pr-1&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,5 +46,11 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//tr[@id='document_13833']/td[2]/div/a/i</value>
    </webElementXpaths>
 </WebElementEntity>

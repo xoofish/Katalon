@@ -6,12 +6,12 @@
    <elementGuidId>755d3669-017b-4d6f-96d9-4d500d0f3828</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.session-participant > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

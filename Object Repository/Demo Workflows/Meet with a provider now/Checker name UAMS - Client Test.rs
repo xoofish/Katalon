@@ -1,16 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Checker name UAMS - Client Test</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>7b0168e5-8e70-45c3-bd99-f7c4d58fe7c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='NOW'])[1]/following::td[2]</value>
+         <value>//section[@id='wesessions-wrapper']/table/thead/tr/th[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'UAMS Client Test
+') or contains(., 'UAMS Client Test
+'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,11 +41,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-      UAMS - Client Test
+      <value>UAMS Client Test
 </value>
    </webElementProperties>
    <webElementProperties>
@@ -47,55 +52,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("event_22702")/td[@class="we-text-lg-center"]</value>
+      <value>id(&quot;event_22702&quot;)/td[@class=&quot;we-text-lg-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='event_22702']/td[3]</value>
+      <value>//section[@id='wesessions-wrapper']/table/thead/tr/th[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOW'])[1]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait Time'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign'])[1]/following::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session Starts At'])[1]/following::th[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferred Gender'])[1]/preceding::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='University of Arkansas for Medical Sciences - UAMS'])[1]/preceding::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Membership'])[1]/preceding::th[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='UAMS - Client Test']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Patient']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[3]</value>
+      <value>//th[3]</value>
    </webElementXpaths>
 </WebElementEntity>

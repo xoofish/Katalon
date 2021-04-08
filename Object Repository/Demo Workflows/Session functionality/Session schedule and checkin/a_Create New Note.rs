@@ -6,12 +6,12 @@
    <elementGuidId>a56f1bfb-5a47-4957-bc57-c74b7e721596</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='new-note-controls']/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.we-button.we-button-full-width-md.copy-template-list-link.create-new-user-note-link.edit-form-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='new-note-controls']/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,14 +70,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Auto Client Test', &quot;'&quot;, 's Notes')])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Info'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[3]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session List'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/user/notes/options/new/18528?dashboard_view=true&amp;event_id=25214')]</value>
+      <value>//a[contains(@href, '/user/notes/options/new/18528?dashboard_view=false')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

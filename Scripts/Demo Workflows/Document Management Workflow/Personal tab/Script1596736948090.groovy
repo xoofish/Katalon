@@ -15,6 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+WebUI.enableSmartWait()
+
+WebUI.maximizeWindow()
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
 'Navigates to document center'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/a_Document Center0'))
 
@@ -63,14 +77,4 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Personal
 WebUI.setText(findTestObject('Demo Workflows/Document Management Workflow/Personal send message subject'), 'Personal Doc Center Send Test')
 
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal send message button'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal sample pdf dropdown menu'))
-
-'deletes the newly uploaded sample.pdf'
-WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal sample pdf delete'))
-
-'accepts the chrome popup'
-WebUI.acceptAlert()
 

@@ -6,12 +6,11 @@
    <elementGuidId>c6e8a072-9714-4efd-a9fe-706fdb589a6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[contains(text(),'Moby-Dick; or, The Whale is an 1851 novel by Ameri')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//p[contains(text(),'Test message content')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

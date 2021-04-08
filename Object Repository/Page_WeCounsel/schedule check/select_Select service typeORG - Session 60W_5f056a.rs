@@ -6,12 +6,12 @@
    <elementGuidId>cac6f38a-bc58-4db4-8d10-7cd97f3d22f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::select[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>select.service-type</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_WeCounsel/schedule check/iframe_ WeCounsel 2011 - 2020_iframe-fronte_98eb21</value>
+      <value>Object Repository/Page_WeCounsel/schedule check/iframe__iframe-frontend-scheduling-wizard</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

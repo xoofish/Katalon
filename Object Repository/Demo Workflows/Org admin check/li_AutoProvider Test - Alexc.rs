@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='faux-select-selection-organization-provider']/li[80]</value>
+         <value>//ul[@id='faux-select-selection-organization-provider']/li[100]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='faux-select-selection-organization-provider']/li[81]</value>
+      <value>//ul[@id='faux-select-selection-organization-provider']/li[100]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

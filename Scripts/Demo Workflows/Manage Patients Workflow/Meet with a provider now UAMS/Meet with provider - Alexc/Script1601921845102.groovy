@@ -20,11 +20,11 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-uams-med.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-uams-med.wecounsel.com/users/sign_in')
+WebUI.enableSmartWait()
 
 'UAMS client acct'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_useremail'), 
@@ -36,8 +36,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_University of Arka
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_userpassword'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(2)
 
 'clicks meet with a provider now'
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/a_Meet With a Provider Now'))
@@ -51,8 +49,6 @@ WebUI.click(findTestObject('Page_University of Arkansas for Medical Sciences/UAM
 
 'requests session'
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/button_Request Session'))
-
-WebUI.delay(2)
 
 'input for issues client is having'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/textarea_Please describe briefly_whatIsReas_4a0495'), 
@@ -68,13 +64,9 @@ WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for 
 
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/button_Next'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/label_No'))
 
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/button_Finish'))
-
-WebUI.delay(2)
 
 'inputs fale address'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Enter Current Location_eventcurrent_location'), 
@@ -84,8 +76,6 @@ WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Me
 
 'consents to session'
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/button_I Agree'))
-
-WebUI.delay(2)
 
 WebDriver driver2 = new ChromeDriver()
 
@@ -164,4 +154,6 @@ WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/Claim sessio
 not_run: WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/I Agree to claim'))
 
 WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/Start Session button'))
+
+WebUI.closeBrowser()
 

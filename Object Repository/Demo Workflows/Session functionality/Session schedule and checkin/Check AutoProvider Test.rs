@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td/div/a</value>
+         <value>//*[@id=&quot;wesessions-wrapper&quot;]/table/tbody/tr[1]/td[1]/div[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'AutoProvider Test')])[2]</value>
+      <value>(//a[contains(text(),'Dr. Auto Provider Test')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AutoClient Test'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Client Test'])[7]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/users/15708')]</value>
+      <value>//a[contains(@href, '/users/18549')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

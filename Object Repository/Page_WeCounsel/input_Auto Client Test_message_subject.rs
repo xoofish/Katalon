@@ -6,15 +6,19 @@
    <elementGuidId>4a0178d1-3ed7-4481-888e-70362c658459</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='message_form_1601999163_message_subject']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#message_form_1601999163_message_subject</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Subject' and @type = 'text' and @name = 'message[subject]' and @id = 'message_form_1601999163_message_subject']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='message_form_1612996045_message_subject']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

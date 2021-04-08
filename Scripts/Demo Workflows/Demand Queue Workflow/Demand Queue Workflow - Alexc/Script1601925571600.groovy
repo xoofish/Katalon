@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-uams-med.wecounsel.com/users/sign_in')
 
-WebUI.navigateToUrl('https://test-uams-med.wecounsel.com/users/sign_in')
+WebUI.enableSmartWait()
 
 WebUI.maximizeWindow()
 

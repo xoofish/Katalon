@@ -16,13 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
-
-WebUI.maximizeWindow()
+WebUI.enableSmartWait()
 
 'autoorg admin test'
 WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoorgadmin@visuwell.net')
@@ -43,16 +41,11 @@ WebUI.click(findTestObject('Demo Workflows/Org admin check/Report in orgs WCPP')
 
 WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All therapists dropdown'))
 
-'Selects autoprovider test as provider'
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Dr. Auto Provider Test'))
 
-String autoprovider = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
-
-'checks if autoprovider test is listed'
-not_run: if (autoprovider.contains('Auto Provider Test')) {
-} else {
-    not_run: KeywordUtil.markFailedAndStop()
-}
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All event statuses dropdown'))
 
@@ -94,47 +87,5 @@ String cancelled = WebUI.getText(findTestObject('Demo Workflows/Org admin check/
 not_run: if (cancelled.contains('Cancelled')) {
 } else {
     not_run: KeywordUtil.markFailedAndStop()
-}
-
-WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All therapists dropdown'))
-
-'Selects amy davis as provider'
-WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Amy Davis'))
-
-String amydavis = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_Amy Davis checker'))
-
-'checks if amy davis is listed'
-if (amydavis.contains('Amy Davis')) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-cancelled = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_Cancelled checker'))
-
-'Checks for cancelled sessions'
-if (cancelled.contains('Cancelled')) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-WebUI.click(findTestObject('Demo Workflows/Org admin check/span_All event statuses dropdown'))
-
-'Selects confirmed sessions filter'
-WebUI.click(findTestObject('Demo Workflows/Org admin check/li_Confirmed'))
-
-amydavis = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_Amy Davis checker'))
-
-'checks if amy davis is listed'
-if (amydavis.contains('Amy Davis')) {
-} else {
-    KeywordUtil.markFailedAndStop()
-}
-
-confirmed = WebUI.getText(findTestObject('Demo Workflows/Org admin check/a_Confirmed checker'))
-
-'Checks for confirmed sessions'
-if (confirmed.contains('Confirmed')) {
-} else {
-    KeywordUtil.markFailedAndStop()
 }
 

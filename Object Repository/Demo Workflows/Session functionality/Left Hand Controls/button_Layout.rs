@@ -55,13 +55,6 @@
       <value>id(&quot;toggle-preview-button&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='toggle-preview-button']</value>
-   </webElementXpaths>
-   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
@@ -95,5 +88,11 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@id='toggle-preview-button']</value>
    </webElementXpaths>
 </WebElementEntity>

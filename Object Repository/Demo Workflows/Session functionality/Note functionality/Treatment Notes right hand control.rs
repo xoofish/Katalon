@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Treatment Notes right hand control</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>81888b9f-b7f2-4539-a993-5cacbbaf9aad</elementGuidId>
    <selectorCollection>
       <entry>
@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("session-material-past-notes-xpsposevyy-15709-link")</value>
+      <value>id(&quot;session-material-past-notes-xpsposevyy-15709-link&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='session-material-past-notes-xpsposevyy-15709-link']</value>
+      <value>//a[@id='session-material-past-notes-ofxgplceaz-18528-link']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/user/notes/list/15709?dashboard_view=true&amp;event_id=23560')]</value>
+      <value>//a[contains(@href, '/user/notes/list/18528?dashboard_view=true&amp;event_id=31380')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

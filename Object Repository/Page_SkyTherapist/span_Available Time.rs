@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>span_Available Time</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>2bb75efc-00a6-43dc-8e8d-f82d4812d390</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[2]/following::span[9]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Available Time' or . = 'Available Time')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("calendar")/div[@class="fc-view-container"]/div[@class="fc-view fc-month-view fc-basic-view"]/table[1]/tbody[@class="fc-body"]/tr[1]/td[@class="fc-widget-content"]/div[@class="fc-scroller fc-day-grid-container"]/div[@class="fc-day-grid fc-unselectable"]/div[@class="fc-row fc-week fc-widget-content fc-rigid"]/div[@class="fc-content-skeleton"]/table[1]/tbody[1]/tr[1]/td[@class="fc-event-container"]/a[@class="fc-day-grid-event fc-h-event fc-event fc-start fc-end long-event available-time"]/div[@class="fc-content"]/span[@class="fc-title"]</value>
+      <value>id(&quot;calendar&quot;)/div[@class=&quot;fc-view-container&quot;]/div[@class=&quot;fc-view fc-month-view fc-basic-view&quot;]/table[1]/tbody[@class=&quot;fc-body&quot;]/tr[1]/td[@class=&quot;fc-widget-content&quot;]/div[@class=&quot;fc-scroller fc-day-grid-container&quot;]/div[@class=&quot;fc-day-grid fc-unselectable&quot;]/div[@class=&quot;fc-row fc-week fc-widget-content fc-rigid&quot;]/div[@class=&quot;fc-content-skeleton&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;fc-event-container&quot;]/a[@class=&quot;fc-day-grid-event fc-h-event fc-event fc-start fc-end long-event available-time&quot;]/div[@class=&quot;fc-content&quot;]/span[@class=&quot;fc-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

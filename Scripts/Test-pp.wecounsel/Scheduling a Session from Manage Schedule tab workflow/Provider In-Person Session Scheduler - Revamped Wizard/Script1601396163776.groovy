@@ -17,6 +17,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.openBrowser('https://test-pp.wecounsel.com/users/sign_in')
+
+WebUI.maximizeWindow()
+
+WebUI.enableSmartWait()
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
 'Navigates to manage schedule'
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Manage Schedule'))
 
@@ -25,8 +39,6 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/button_Schedule'))
 'Schedules a session'
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Session'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Demo Workflows/Scheduler/select_Video SessionIn-Person Session'), 
     'in-person-session', true)
 
@@ -34,6 +46,8 @@ WebUI.click(findTestObject('Object Repository/Demo Workflows/Scheduler/button_Ne
 
 WebUI.setText(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/input_Add Patients_scheduler-patients-search-field'), 
     'auto client test')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/span_Auto Client Test'))
 

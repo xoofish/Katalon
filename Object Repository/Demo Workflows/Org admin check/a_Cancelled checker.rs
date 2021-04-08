@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']/div[2]/form/section[2]/section[2]/div[2]/table/tbody/tr/td[10]/a</value>
+         <value>//div[@id='main']/div[2]/form/section[2]/section[2]/div[2]/div/table/tbody/tr/td[10]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main']/div[2]/form/section[2]/section[2]/div[2]/table/tbody/tr/td[10]/a</value>
+      <value>//div[@id='main']/div[2]/form/section[2]/section[2]/div[2]/div/table/tbody/tr/td[10]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/events/22078/change_status')]</value>
+      <value>//a[contains(@href, '/events/30013/change_status')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

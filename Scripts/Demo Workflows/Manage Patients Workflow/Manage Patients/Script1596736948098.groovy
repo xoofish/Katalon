@@ -15,6 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+WebUI.enableSmartWait()
+
+WebUI.maximizeWindow()
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
 'navigates to manage clients'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Manage Clients Button'))
 
@@ -95,9 +109,6 @@ WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Document Act
 
 'deletes newly uploaded doc'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Doc Dropdown Delete'))
-
-'accepts chrome popup'
-WebUI.acceptAlert()
 
 'navigates to notes'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Notes Button'))

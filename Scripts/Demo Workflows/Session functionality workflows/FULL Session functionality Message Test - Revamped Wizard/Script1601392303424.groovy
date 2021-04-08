@@ -23,11 +23,11 @@ import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://test-pp.wecounsel.com/users/sign_in')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://test-pp.wecounsel.com/users/sign_in')
+WebUI.enableSmartWait()
 
 WebUI.delay(2)
 

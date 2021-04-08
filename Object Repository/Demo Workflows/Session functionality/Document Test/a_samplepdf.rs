@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='document_12008']/td/span/a</value>
+         <value>(//a[contains(text(),'sample.pdf')])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

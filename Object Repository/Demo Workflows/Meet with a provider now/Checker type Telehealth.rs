@@ -1,16 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Checker type Telehealth</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>1a90b947-9491-469a-b6f3-1a89c8b54c9e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='(123) 123-1234'])[1]/following::td[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), '
+    Telehealth
+') or contains(., '
+    Telehealth
+'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +36,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
@@ -40,7 +48,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("event_22702")/td[7]</value>
+      <value>id(&quot;event_22702&quot;)/td[7]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

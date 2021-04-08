@@ -92,7 +92,6 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/button</value>
    </webElementXpaths>

@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>div_Test message</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>eb9d8cd8-f60d-4aed-836d-7b31b6837a41</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'ql-editor' and (text() = 'Test message' or . = 'Test message')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='New Message'])[1]/following::div[6]</value>
@@ -20,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("message_form_1588690039_new_message")/fieldset[@class="text-editor-fieldset"]/div[@class="input-wrapper textarea-wrapper"]/div[@class="form-input rte-editor ql-container ql-snow"]/div[@class="ql-editor"]</value>
+      <value>id(&quot;message_form_1588690039_new_message&quot;)/fieldset[@class=&quot;text-editor-fieldset&quot;]/div[@class=&quot;input-wrapper textarea-wrapper&quot;]/div[@class=&quot;form-input rte-editor ql-container ql-snow&quot;]/div[@class=&quot;ql-editor&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Message'])[1]/following::div[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recipients:'])[3]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

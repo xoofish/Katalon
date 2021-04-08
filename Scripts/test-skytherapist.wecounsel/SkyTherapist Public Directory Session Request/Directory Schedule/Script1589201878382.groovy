@@ -16,6 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://test-skytherapist.wecounsel.com/users/sign_in')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_useremail'))
+
+WebUI.setText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_useremail'), 'alexc+autoskypat@visuwell.net')
+
+'Telehealth321'
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_userpassword'), 'LCsxB9VPamtRlQlpiLe+cw==')
+
+WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/button_Log in'))
+
 WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/a'))
 
 WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/span_Select State'))
