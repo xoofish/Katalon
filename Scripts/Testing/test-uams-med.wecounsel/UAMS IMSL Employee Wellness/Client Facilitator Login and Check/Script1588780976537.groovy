@@ -17,7 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/a_Log in'))
+WebUI.openBrowser('https://test-uams-med.wecounsel.com/organizations/712/public_calendar')
+
+WebUI.click(findTestObject('Page_University of Arkansas for Medical Sciences/a_Log in'))
 
 'Logs into uams clinical facilitator'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/input_Please Log In_useremail'), 
