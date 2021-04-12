@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='consumers-list-edit']/table/tbody/tr[7]/td[4]/div/div/ul/li[3]/a</value>
+         <value>//a[contains(@href, '/messages/new/user/18528')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

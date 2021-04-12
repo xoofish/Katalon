@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;wesessions-wrapper&quot;]/table/tbody/tr[1]/td[1]/div[1]/a</value>
+         <value>//section[@id='wesessions-wrapper']/table/tbody/tr/td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

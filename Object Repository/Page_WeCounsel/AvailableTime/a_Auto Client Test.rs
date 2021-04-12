@@ -6,12 +6,12 @@
    <elementGuidId>daab15a0-afb2-4e20-8e9a-ab43b5736028</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='wesessions-wrapper']/div/div/div/table/tbody/tr/td/div[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a[title=&quot;Auto Client Test&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. Auto Provider Test'])[2]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
