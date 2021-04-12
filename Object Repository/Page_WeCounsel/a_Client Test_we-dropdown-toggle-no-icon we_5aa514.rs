@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='consumers-list-edit']/table/tbody/tr[7]/td[4]/div</value>
+         <value>//div[@id='consumers-list-edit']/table/tbody/tr/td[4]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consumers-list-edit']/table/tbody/tr[7]/td[4]/div</value>
+      <value>//div[@id='consumers-list-edit']/table/tbody/tr/td[4]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +80,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[7]/td[4]/div</value>
+      <value>//td[4]/div</value>
    </webElementXpaths>
 </WebElementEntity>

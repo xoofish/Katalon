@@ -33,6 +33,13 @@ WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 'Opens manage clients\r\n'
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Manage Clients0'))
 
+WebUI.click(findTestObject('message patient search'))
+
+WebUI.setText(findTestObject('message patient search'), 'auto client test')
+
+WebUI.sendKeys(findTestObject('message patient search'), Keys.chord(Keys.ENTER))
+
+
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Client Test_we-dropdown-toggle-no-icon we_5aa514'))
 
 'Clicks send message in client test dropdown'
