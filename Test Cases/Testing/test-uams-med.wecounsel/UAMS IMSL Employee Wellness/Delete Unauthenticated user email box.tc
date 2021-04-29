@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Delete Unauthenticated user email box</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6570a4cd-b55d-4b59-9d7a-1b63a7dfd4d4</testCaseGuid>
-</TestCaseEntity>

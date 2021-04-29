@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Combined test case of UAMS IMSL Employee Wellness and Provider Admin Notif Emails</description>
+   <name>UAMS Email Checks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a6f412f-4346-4cd2-a390-ad254a003496</testCaseGuid>
+</TestCaseEntity>

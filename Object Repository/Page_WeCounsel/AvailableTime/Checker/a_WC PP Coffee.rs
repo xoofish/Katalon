@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client 2 Test'])[1]/following::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete John Doe'])[1]/following::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/session_requests/23275/edit?edit_service_type=true')]</value>
+      <value>//a[contains(@href, '/session_requests/31857/edit?edit_service_type=true')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

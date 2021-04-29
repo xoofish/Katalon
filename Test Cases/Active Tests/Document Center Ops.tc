@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Consolidated test covering library and personal tabs</description>
+   <name>Document Center Ops</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab6dacc4-57ac-4b79-be62-11119f0d3093</testCaseGuid>
+</TestCaseEntity>

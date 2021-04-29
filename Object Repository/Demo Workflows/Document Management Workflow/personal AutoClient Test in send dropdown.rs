@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>personal AutoClient Test in send dropdown</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>6932ad98-e95e-4117-9f9a-c410047a0a28</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-value = '18528' and (text() = 'Auto Client Test' or . = 'Auto Client Test')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients:'])[2]/following::li[1]</value>
@@ -20,11 +24,11 @@
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-value</name>
       <type>Main</type>
-      <value>15709</value>
+      <value>18528</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>AutoClient Test</value>
+      <value>Auto Client Test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("faux-select-message_form_1592333873_message_recipient_id")/li[@class="faux-option"]</value>
+      <value>id(&quot;faux-select-message_form_1592333873_message_recipient_id&quot;)/li[@class=&quot;faux-option&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

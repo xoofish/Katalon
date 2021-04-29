@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Combination of one time and repeating session scheduler tests</description>
+   <name>Session Scheduler</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdc77167-e70d-46b6-9235-ce59da91b807</testCaseGuid>
+</TestCaseEntity>

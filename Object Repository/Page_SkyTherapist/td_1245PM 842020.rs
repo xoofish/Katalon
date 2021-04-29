@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '
-    12:45PM 5/4/2021
-  ' or . = '
-    12:45PM 5/4/2021
-  ')]</value>
+         <value>//*[@data-label = 'Session Starts At']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -28,14 +24,14 @@
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-label</name>
       <type>Main</type>
       <value>Session Starts At</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

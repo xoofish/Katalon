@@ -94,12 +94,11 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/messages')])[3]</value>
+      <value>(//a[contains(@href, '/messages')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
       <type>Main</type>
       <value>//body/div/div/ul/li[3]/a</value>
    </webElementXpaths>

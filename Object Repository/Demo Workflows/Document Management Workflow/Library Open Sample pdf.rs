@@ -6,6 +6,10 @@
    <elementGuidId>6d00b720-e642-4a8b-90ed-f6b37915589a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/questionnaire_preview/1/695' and (text() = 'sample.pdf' or . = 'sample.pdf')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='documents-wrapper']/table/tbody/tr/td/a</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/questionnaire_preview/1/579</value>
+      <value>/admin/questionnaire_preview/1/695</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

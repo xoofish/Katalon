@@ -6,15 +6,15 @@
    <elementGuidId>c743b6da-d6c8-4fc1-b9d8-32f47d972b70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='consumers-list-edit']/table/tbody/tr[3]/td[3]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Auto Client Test' or . = 'Auto Client Test')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='consumers-list-edit']/table/tbody/tr[3]/td[3]/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
