@@ -15,6 +15,12 @@
       <guid>3c97ea0d-287a-4e10-b488-d8a5d5df14a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Active Tests/Org admin checkin as patient - Revamped wizard</testCaseId>
+      <testCaseId>Test Cases/Active Tests/Org admin checkin as patient</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a4f8a001-eb50-40e6-9f16-935d5858f16f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Active Tests/SANE Testing</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

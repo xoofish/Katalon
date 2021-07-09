@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sally Scheduler'])[2]/following::span[1]</value>
+         <value>//fieldset[2]/fieldset/label/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,35 +45,35 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='events_edit_igxqhuxizj_new_event']/section/fieldset[2]/fieldset/label/div/span</value>
+      <value>//form[@id='events_edit_lfvouyydvm_new_event']/section[2]/fieldset/label/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sally Scheduler'])[2]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VPP4AB 01'])[4]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dollar Sched'])[2]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VisuWell Private Practice - Location 1'])[4]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medicine'])[2]/preceding::span[14]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telehealth Session'])[3]/preceding::span[14]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

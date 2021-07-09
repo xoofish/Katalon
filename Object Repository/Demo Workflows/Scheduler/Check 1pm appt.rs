@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[6]/div/div[2]</value>
+         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[5]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,41 +45,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[6]/div/div[2]</value>
+      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[5]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[36]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[41]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[35]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[40]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[37]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medicine'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='AutoProvider Test, AutoClient Test, Client 2 Test']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='AutoProvider Test, Auto Patient Test, Test Patient']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[6]/div/div[2]/a[6]/div/div[2]</value>
+      <value>//td[6]/div/div[2]/a[5]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

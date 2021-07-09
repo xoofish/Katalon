@@ -6,12 +6,16 @@
    <elementGuidId>8b8e2e5d-df88-4adb-93d7-424d702fdb7e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn-primary.btn</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn --inline' and (text() = 'Next' or . = 'Next')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='data_root']/div/div[2]/div/div[2]/div/div[2]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,11 +28,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-primary btn</value>
+      <value>btn --inline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,59 +46,47 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[1]/div[@class=&quot;modal active&quot;]/div[@class=&quot;modal-container scheduler-main-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;main-schedule-step-content&quot;]/div[@class=&quot;navigation-section navbar&quot;]/div[@class=&quot;navbar-section primary-button&quot;]/button[@class=&quot;btn-primary btn&quot;]</value>
+      <value>id(&quot;data_root&quot;)/div[@class=&quot;b-modal --active&quot;]/div[@class=&quot;b-modal__body&quot;]/div[@class=&quot;b-modal__scroll&quot;]/div[@class=&quot;b-modal__content&quot;]/div[1]/div[@class=&quot;form-group --button-group --spread&quot;]/button[@class=&quot;btn --inline&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Demo Workflows/Session functionality/Session schedule and checkin/iframe_ WeCounsel 2011 - 2020_iframe-fronte_98eb21</value>
+      <value>Object Repository/Demo Workflows/Org admin checkin as patient/iframe__iframe-frontend-scheduling-wizard</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Type'])[2]/following::button[1]</value>
+      <value>//div[@id='data_root']/div/div[2]/div/div[2]/div/div[2]/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose event type'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Include me?'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
+      <value>//button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

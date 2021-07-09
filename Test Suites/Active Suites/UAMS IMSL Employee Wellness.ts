@@ -41,24 +41,24 @@ Make sure to check email and ensure that the notifications sent properly</descri
       <guid>2b19be1d-a0a6-4e29-9d56-a3a6054204f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inactive Tests/Testing/test-uams-med.wecounsel/UAMS IMSL Employee Wellness/Delete Unauthenticated user email box</testCaseId>
+      <testCaseId>Test Cases/Active Tests/UAMS Tests/UAMS IMSL Employee Wellness/Delete Unauthenticated user email box</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7f5ddc2f-bcd9-49bb-8498-e71654e92dbf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inactive Tests/Testing/test-uams-med.wecounsel/UAMS IMSL Employee Wellness/Unathenticated user calendar</testCaseId>
+      <testCaseId>Test Cases/Active Tests/UAMS Tests/UAMS IMSL Employee Wellness/Unathenticated user calendar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b3b2060c-9061-4fd7-8a5a-dfbd3bc63981</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inactive Tests/Testing/test-uams-med.wecounsel/UAMS IMSL Employee Wellness/Client Facilitator Login and Check</testCaseId>
+      <testCaseId>Test Cases/Active Tests/UAMS Tests/UAMS IMSL Employee Wellness/Client Facilitator Login and Check</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a66e3dd1-f7cf-48b2-876e-79eb00c685a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inactive Tests/Testing/test-uams-med.wecounsel/UAMS IMSL Employee Wellness/Check email confirmation</testCaseId>
+      <testCaseId>Test Cases/Active Tests/UAMS Tests/UAMS IMSL Employee Wellness/Check email confirmation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

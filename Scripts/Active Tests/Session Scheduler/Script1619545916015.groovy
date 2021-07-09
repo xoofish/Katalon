@@ -19,10 +19,12 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
 
+WebUI.enableSmartWait()
+
 WebUI.maximizeWindow()
 
 'Email used for all wecounsel provider testing\r\n'
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'visuwellautomation+provider@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
 
@@ -56,23 +58,25 @@ WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client Two Test'))
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
 
 'Adds guest via email\r\n'
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Invite Guest by Email'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Invite Guest by Email'))
 
 'first name'
-WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_First Name_eventguest_users_attribute_245197'), 'Delete John')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_First Name_eventguest_users_attribute_245197'), 
+    'Delete John')
 
 'last name'
-WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_Last Name_eventguest_users_attributes_b75a7b'), 'Doe')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_Last Name_eventguest_users_attributes_b75a7b'), 
+    'Doe')
 
-String GuestSingle = ('carld+SINGLE' + System.nanoTime()) + '@visuwell.net'
+not_run: String GuestSingle = ('visuwellautomation+SINGLE' + System.nanoTime()) + '@gmail.com'
 
 'Sets email to carld+SINGLE(timestamp)@visuwell.net'
-WebUI.sendKeys(findTestObject('Page_WeCounsel/input_Guest email_eventguest_users_attribut_e27ab3'), GuestSingle)
+not_run: WebUI.sendKeys(findTestObject('Page_WeCounsel/input_Guest email_eventguest_users_attribut_e27ab3'), GuestSingle)
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/span_WC PP Coffee_faux-selection-arrow'))
+WebUI.click(findTestObject('Page_WeCounsel/Service dropdown'))
 
 'Selects type of session'
-WebUI.click(findTestObject('Page_WeCounsel/Type of session select from dropdown'))
+WebUI.click(findTestObject('Page_WeCounsel/Service Medicine dropdown select'))
 
 Date today = new Date()
 
@@ -87,42 +91,42 @@ WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_300pm'))
 
 WebUI.click(findTestObject('Page_WeCounsel/button_Save'))
 
-WebUI.delay(12)
+WebUI.waitForElementClickable(findTestObject('Page_WeCounsel/AvailableTime/Checker/Check 3pm appt'), 15)
 
 'Clicks on newly scheduled 3:00 pm appointment'
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/Checker/Check 3pm appt'))
 
-String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Auto Client Test'))
+String member1 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Provider Dr Auto Provider Test Check'))
 
-if (member1.contains('Auto Client Test')) {
+if (member1.contains('Dr Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member2 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
+String member2 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/Provider Auto Patient Test Check'))
 
-if (member2.contains('Dr. Auto Provider Test')) {
+if (member2.contains('Auto Patient Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member3 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Client Two Test'))
+String member3 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Provider Test Patient Check'))
 
-if (member3.contains('Client Two Test')) {
+if (member3.contains('Test Patient')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member4 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Delete John Doe'))
+not_run: String member4 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Delete John Doe'))
 
-if (member4.contains('Delete John Doe')) {
+not_run: if (member4.contains('Delete John Doe')) {
 } else {
-    KeywordUtil.markFailedAndStop()
+    not_run: KeywordUtil.markFailedAndStop()
 }
 
-String eventTypeSingle = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_WC PP Coffee'))
+String eventTypeSingle = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/Session Service Check'))
 
-if (eventTypeSingle.contains('WC PP Coffee')) {
+if (eventTypeSingle.contains('Medicine')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -180,23 +184,25 @@ WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/li_Client Two Test'))
 WebUI.click(findTestObject('Object Repository/Page_WeCounsel/form_Schedule Calendar EventSchedule Video _9cb003'))
 
 'Adds guest via email\r\n'
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Invite Guest by Email'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_WeCounsel/a_Invite Guest by Email'))
 
 'first name'
-WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_First Name_eventguest_users_attribute_245197'), 'Delete John')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_First Name_eventguest_users_attribute_245197'), 
+    'Delete John')
 
 'last name'
-WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_Last Name_eventguest_users_attributes_b75a7b'), 'Doe')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_WeCounsel/input_Last Name_eventguest_users_attributes_b75a7b'), 
+    'Doe')
 
-String GuestRepeat = ('carld+REPEAT' + System.nanoTime()) + '@visuwell.net'
+not_run: String GuestRepeat = ('carld+REPEAT' + System.nanoTime()) + '@visuwell.net'
 
 'Sets email to carld+REPEAT(timestamp)@visuwell.net'
-WebUI.sendKeys(findTestObject('Page_WeCounsel/input_Guest email_eventguest_users_attribut_e27ab3'), GuestRepeat)
+not_run: WebUI.sendKeys(findTestObject('Page_WeCounsel/input_Guest email_eventguest_users_attribut_e27ab3'), GuestRepeat)
 
-WebUI.click(findTestObject('Object Repository/Page_WeCounsel/span_WC PP Coffee_faux-selection-arrow'))
+WebUI.click(findTestObject('Page_WeCounsel/Service dropdown'))
 
 'Selects type of session'
-WebUI.click(findTestObject('Page_WeCounsel/Type of session select from dropdown'))
+WebUI.click(findTestObject('Page_WeCounsel/Service Medicine dropdown select'))
 
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/span_500pm'))
 
@@ -219,37 +225,37 @@ WebUI.click(findTestObject('Object Repository/Page_WeCounsel/span_May 10  16 202
 'Clicks on newly scheduled 2:00 pm appointment'
 WebUI.click(findTestObject('Page_WeCounsel/AvailableTime/Checker/Check 2 pm appt'))
 
-String member5 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Auto Client Test'))
+String member5 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Provider Dr Auto Provider Test Check'))
 
-if (member5.contains('Auto Client Test')) {
+if (member5.contains('Dr Auto Provider Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member6 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Dr. Auto Provider Test'))
+String member6 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/Provider Auto Patient Test Check'))
 
-if (member6.contains('Dr. Auto Provider Test')) {
+if (member6.contains('Auto Patient Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member7 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/a_Client Two Test'))
+String member7 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Provider Test Patient Check'))
 
-if (member7.contains('Client Two Test')) {
+if (member7.contains('Test Patient')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String member8 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Delete John Doe'))
+not_run: String member8 = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_Delete John Doe'))
 
-if (member8.contains('Delete John Doe')) {
+not_run: if (member8.contains('Delete John Doe')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
 
-String eventTypeRepeat = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/a_WC PP Coffee'))
+String eventTypeRepeat = WebUI.getText(findTestObject('Page_WeCounsel/AvailableTime/Checker/Session Service Check'))
 
-if (eventTypeRepeat.contains('WC PP Coffee')) {
+if (eventTypeRepeat.contains('Medicine')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

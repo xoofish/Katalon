@@ -6,12 +6,12 @@
    <elementGuidId>c743b6da-d6c8-4fc1-b9d8-32f47d972b70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Auto Client Test' or . = 'Auto Client Test')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='consumers-list-edit']/table/tbody/tr[2]/td[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='consumers-list-edit']/table/tbody/tr[3]/td[3]/a</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Auto Client Test' or . = 'Auto Client Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,55 +56,61 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consumers-list-edit']/table/tbody/tr[3]/td[3]/a</value>
+      <value>//div[@id='consumers-list-edit']/table/tbody/tr[2]/td[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Auto Client Test')])[2]</value>
+      <value>//a[contains(text(),'Auto Patient Test')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hjb9sd'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='veqgei'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wecounsel Private Practice'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(555) 555-5555'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Video Now'])[3]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Video Now'])[2]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat Now'])[3]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat Now'])[2]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/consumers/18528#primary-navigation')]</value>
+      <value>//*/text()[normalize-space(.)='Auto Patient Test']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td[3]/a</value>
+      <value>//a[contains(@href, '/consumers/20544#primary-navigation')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//tr[2]/td[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

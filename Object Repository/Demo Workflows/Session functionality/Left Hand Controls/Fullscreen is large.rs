@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='video-control-button enabled shrink-to-normal']</value>
+         <value>id(&quot;inCallButtonPanel&quot;)/div[@class=&quot;button-group&quot;]/div[@class=&quot;video-button&quot;]/button[@class=&quot;video-control-button shrink-to-normal&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

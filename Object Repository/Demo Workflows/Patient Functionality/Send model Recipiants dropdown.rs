@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Send model Recipiants dropdown</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>ca167a5a-d117-469c-aa92-e51af39d07a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='ST WCPP Scheduler Test'])[2]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments'])[1]/preceding::span[14]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("message_form_1593021406_new_message")/fieldset[@class="message-recipient"]/label[@class="input-wrapper"]/div[@class="faux-select-wrapper faux-contents-unopened"]/span[@class="faux-selection-indicator"]</value>
+      <value>id(&quot;message_form_1593021406_new_message&quot;)/fieldset[@class=&quot;message-recipient&quot;]/label[@class=&quot;input-wrapper&quot;]/div[@class=&quot;faux-select-wrapper faux-contents-unopened&quot;]/span[@class=&quot;faux-selection-indicator&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

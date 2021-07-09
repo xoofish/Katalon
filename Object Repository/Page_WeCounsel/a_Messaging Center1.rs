@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-sidebar']/ul/li[3]/a</value>
+         <value>//div[@id='main-sidebar']/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-sidebar']/ul/li[3]/a</value>
+      <value>//div[@id='main-sidebar']/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +100,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//body/div/div/ul/li[3]/a</value>
+      <value>//body/div/div/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

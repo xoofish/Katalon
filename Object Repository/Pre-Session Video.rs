@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pre-Session Video</name>
+   <tag></tag>
+   <elementGuidId>889c3a4e-7d7e-47fe-9834-256a6b884392</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M93.1,23.5L72.9,35v-3.7c0-6.6-5.4-12-12-12H12c-6.6,0-12,5.4-12,12v37.4c0,6.6,5.4,12,12,12h49c6.6,0,12-5.4,12-12v-3.7 l20.1,11.6c3.8,2.2,6.9,0.4,6.9-4v-45C100,23.1,96.9,21.3,93.1,23.5z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tech_check_wrap&quot;]/div[1]/div/button[2]/div</value>
+   </webElementProperties>
+</WebElementEntity>

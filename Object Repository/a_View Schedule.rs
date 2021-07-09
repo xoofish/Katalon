@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[4]/div/div/ul/li[2]/a</value>
+         <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[4]/div/div/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'View Schedule' or . = 'View Schedule') and @href = '/calendars/18549']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[4]/div/div/ul/li[2]/a</value>
+      <value>//div[@id='users-wrapper']/section[2]/div/table/tbody/tr/td[4]/div/div/ul/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. Auto Provider Test'])[1]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Account'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provider'])[2]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,12 +90,12 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//a[contains(@href, '/calendars/18549')]</value>
+      <value>//a[contains(@href, '/calendars/20261')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//div/div/ul/li[2]/a</value>
+      <value>//div/ul/li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

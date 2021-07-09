@@ -6,12 +6,12 @@
    <elementGuidId>b852d912-fd18-4e38-9501-e46b86f208a6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.we-button.we-button-full-width-md.copy-template-list-link.create-new-user-note-link.edit-form-link</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@id='new-note-controls']/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.we-button.we-button-full-width-md.copy-template-list-link.create-new-user-note-link.edit-form-link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,14 +70,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Info'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session List'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session List'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/user/notes/options/new/18528?dashboard_view=false')]</value>
+      <value>//a[contains(@href, '/user/notes/options/new/20544?dashboard_view=false')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,11 +99,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <type>Main</type>
-      <value></value>
    </webElementXpaths>
 </WebElementEntity>

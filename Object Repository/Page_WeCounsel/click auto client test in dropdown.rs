@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[contains(text(),'AutoClient Test')]</value>
+         <value>//li[contains(text(),'Auto Patient Test')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

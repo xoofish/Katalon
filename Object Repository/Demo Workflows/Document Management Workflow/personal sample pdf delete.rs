@@ -6,11 +6,15 @@
    <elementGuidId>0cdfb37a-7b23-41ed-ab66-8f79f6e81e20</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@data-delete-item-type = 'document' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='document_13833']/td[2]/div/div/ul/li[5]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +52,7 @@
       <value>json</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-delete-item-type</name>
       <type>Main</type>
@@ -69,7 +73,7 @@
       <value>delete</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

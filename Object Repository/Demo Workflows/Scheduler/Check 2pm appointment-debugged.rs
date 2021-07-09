@@ -6,19 +6,19 @@
    <elementGuidId>84c2166c-0335-457a-bf9a-50a20ac59466</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end.short-event.online-session.fc-short > div.fc-content > div.fc-title</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Dr. Auto Provider Test, AutoClient Test, Client Two TestWC PP Coffee' or . = 'Dr. Auto Provider Test, AutoClient Test, Client Two TestWC PP Coffee')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>a.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end.short-event.online-session.fc-short > div.fc-content > div.fc-title</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[7]/div/div[2]</value>
+         <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[5]/div/div[2]/a[6]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[6]/div/div[2]/a[7]/div/div[2]</value>
+      <value>//div[@id='calendar']/div[2]/div/table/tbody/tr/td/div/div/div[3]/table/tbody/tr/td[5]/div/div[2]/a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[33]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[32]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,13 +81,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Dr. Auto Provider Test, AutoClient Test, Client Two Test']/parent::*</value>
+      <value>//a[contains(@href, '/events/32398')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[6]/div/div[2]/a[7]/div/div[2]</value>
+      <value>//td[5]/div/div[2]/a[6]</value>
    </webElementXpaths>
 </WebElementEntity>

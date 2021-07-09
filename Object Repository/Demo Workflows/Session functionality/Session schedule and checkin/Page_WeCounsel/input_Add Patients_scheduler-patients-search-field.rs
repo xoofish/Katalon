@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='scheduler-patients-search-field']</value>
+         <value>//input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Demo Workflows/Session functionality/Session schedule and checkin/Page_WeCounsel/iframe__iframe-frontend-scheduling-wizard</value>
+      <value>Object Repository/Demo Workflows/Org admin checkin as patient/iframe__iframe-frontend-scheduling-wizard</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,5 +85,11 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id='data_root']/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

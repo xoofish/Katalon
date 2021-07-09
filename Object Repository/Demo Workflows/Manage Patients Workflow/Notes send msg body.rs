@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>Notes send msg body</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>748a9a29-120f-4aba-92d4-c1f9f4a260e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='ST WCPP Scheduler Test'])[2]/following::div[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachments'])[1]/preceding::div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("message_form_1592322876_new_message")/fieldset[@class="text-editor-fieldset"]/div[@class="input-wrapper textarea-wrapper"]/div[@class="form-input rte-editor ql-container ql-snow"]/div[@class="ql-editor ql-blank"]</value>
+      <value>id(&quot;message_form_1592322876_new_message&quot;)/fieldset[@class=&quot;text-editor-fieldset&quot;]/div[@class=&quot;input-wrapper textarea-wrapper&quot;]/div[@class=&quot;form-input rte-editor ql-container ql-snow&quot;]/div[@class=&quot;ql-editor ql-blank&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

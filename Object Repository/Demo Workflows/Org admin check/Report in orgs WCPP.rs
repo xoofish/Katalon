@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[2]/div[2]/div[2]/section/div[2]/div/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Report' and @href = '/organizations/643/report?use_org_breadcrumbs=true']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,17 +42,17 @@
       <matchCondition>equals</matchCondition>
       <name>data-show-url</name>
       <type>Main</type>
-      <value>/organizations/1</value>
+      <value>/organizations/643</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/organizations/1/report?use_org_breadcrumbs=true</value>
+      <value>/organizations/643/report?use_org_breadcrumbs=true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

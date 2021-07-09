@@ -22,7 +22,7 @@ WebUI.enableSmartWait()
 WebUI.maximizeWindow()
 
 'Email used for all wecounsel provider testing\r\n'
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'visuwellautomation+provider@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
 
@@ -102,17 +102,20 @@ WebUI.setText(findTestObject('Demo Workflows/Manage Patients Workflow/Doc send m
 'send'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Doc message send button'))
 
-WebUI.delay(15)
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Document Action Dropdown'))
 
 'deletes newly uploaded doc'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Doc Dropdown Delete'))
 
+WebUI.acceptAlert()
+
 'navigates to notes'
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Notes Button'))
 
-WebUI.delay(3)
+WebUI.waitForElementClickable(findTestObject('Demo Workflows/Manage Patients Workflow/a_Create New Note_UPDATE_BUTTON'), 
+    10)
 
 WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/a_Create New Note_UPDATE_BUTTON'))
 

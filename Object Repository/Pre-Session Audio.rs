@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pre-Session Audio</name>
+   <tag></tag>
+   <elementGuidId>2d1a3b7f-61b3-4821-9d88-ab666747730d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M20,43.7c-1.8,0-3.3,1.4-3.3,3.2c0,0,0,0,0,0.1c0,17.1,13,31.4,30,33.1v13.4H33.8c-1.8,0.1-3.2,1.6-3.1,3.4 c0.1,1.6,1.4,3,3.1,3.1h32.4c1.8-0.1,3.2-1.6,3.1-3.4c-0.1-1.6-1.4-3-3.1-3.1H53.2V80.1c17-1.7,30-16,30-33.1 c-0.1-1.8-1.6-3.2-3.4-3.1c-1.6,0.1-3,1.4-3.1,3.1c0,14.8-12,26.8-26.8,26.8S23.2,61.8,23.2,47C23.2,45.2,21.8,43.8,20,43.7z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tech_check_wrap&quot;]/div[1]/div/button[1]/div</value>
+   </webElementProperties>
+</WebElementEntity>

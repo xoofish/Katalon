@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']/div[3]/ul/li[3]/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='On-Demand Requests'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

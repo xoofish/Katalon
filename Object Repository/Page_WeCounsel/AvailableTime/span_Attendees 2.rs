@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>span_Attendees 2</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>d8ab3698-2dbf-46b5-9c98-77bd8f3f0335</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dollar Sched'])[4]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Determine location from attendees'])[2]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("events_edit_wmpewoakdn_new_event")/section[@class="event-type-specific event-type-session event-participants"]/fieldset[@class="event-section-associable-users  event-type-specific event-type-session"]/fieldset[@class="input-field-container form-group we-remove-block we-remove-block-labeled"]/label[@class="input-wrapper"]/div[@class="faux-select-wrapper"]/span[@class="faux-selection-indicator"]</value>
+      <value>id(&quot;events_edit_wmpewoakdn_new_event&quot;)/section[@class=&quot;event-type-specific event-type-session event-participants&quot;]/fieldset[@class=&quot;event-section-associable-users  event-type-specific event-type-session&quot;]/fieldset[@class=&quot;input-field-container form-group we-remove-block we-remove-block-labeled&quot;]/label[@class=&quot;input-wrapper&quot;]/div[@class=&quot;faux-select-wrapper&quot;]/span[@class=&quot;faux-selection-indicator&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

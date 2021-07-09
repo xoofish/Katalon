@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>library send span_Recipients</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>8a64a8f7-a010-4633-94d0-d4e8a9c8d65a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='ST WCPP Scheduler Test'])[2]/following::span[1]</value>
+         <value>//label/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("message_form_1592333583_new_message")/fieldset[@class="message-recipient"]/label[@class="input-wrapper"]/div[@class="faux-select-wrapper faux-contents-unopened"]/span[@class="faux-selection-indicator"]</value>
+      <value>id(&quot;message_form_1592333583_new_message&quot;)/fieldset[@class=&quot;message-recipient&quot;]/label[@class=&quot;input-wrapper&quot;]/div[@class=&quot;faux-select-wrapper faux-contents-unopened&quot;]/span[@class=&quot;faux-selection-indicator&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

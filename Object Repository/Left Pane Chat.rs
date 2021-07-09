@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Left Pane Chat</name>
+   <tag></tag>
+   <elementGuidId>04119b6c-3c7d-4ba9-89a0-1d59c02e0e9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M85,39C85,18.2,66,1.4,42.5,1.4C19,1.4,0,18.2,0,39c0,7.5,2.4,14.5,6.7,20.4L4.5,78.8C4.4,80,5.7,81,6.8,80.4l16.6-7.7 c5.7,2.5,12.2,4,18.9,4C65.9,76.8,85,59.8,85,39z M62.9,33c3.4,0,6,2.7,6,6c0,3.4-2.7,6-6,6c-3.3,0-6-2.7-6-6 C56.8,35.7,59.5,33,62.9,33z M22.2,45.1c-3.4,0-6-2.7-6-6c0-3.4,2.7-6,6-6s6,2.7,6,6C28.3,42.4,25.6,45.1,22.2,45.1z M36.5,39 c0-3.4,2.7-6,6-6c3.4,0,6,2.7,6,6c0,3.4-2.7,6-6,6C39.2,45.1,36.5,42.4,36.5,39z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;session_frame&quot;]/div[1]/div/button[4]</value>
+   </webElementProperties>
+</WebElementEntity>

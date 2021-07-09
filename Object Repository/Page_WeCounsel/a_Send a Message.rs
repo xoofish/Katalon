@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '/messages/new/user/18528')]</value>
+         <value>//div[@id='consumers-list-edit']/table/tbody/tr/td[4]/div/div/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,55 +45,61 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='consumers-list-edit']/table/tbody/tr[7]/td[4]/div/div/ul/li[3]/a</value>
+      <value>//div[@id='consumers-list-edit']/table/tbody/tr/td[4]/div/div/ul/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Send a Message')])[7]</value>
+      <value>//a[contains(text(),'Send a Message')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat Now'])[7]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat Now'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Video Now'])[7]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Video Now'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Patient Folder'])[7]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Patient Folder'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archive'])[7]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archive'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/messages/new/user/18528')]</value>
+      <value>//*/text()[normalize-space(.)='Send a Message']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[7]/td[4]/div/div/ul/li[3]/a</value>
+      <value>//a[contains(@href, '/messages/new/user/20544')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//td[4]/div/div/ul/li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

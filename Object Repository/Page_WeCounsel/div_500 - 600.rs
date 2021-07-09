@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[36]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Time'])[37]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

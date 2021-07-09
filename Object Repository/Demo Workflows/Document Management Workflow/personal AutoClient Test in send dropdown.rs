@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clients:'])[2]/following::li[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Recipients:'])[2]/following::li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

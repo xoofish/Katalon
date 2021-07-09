@@ -6,12 +6,11 @@
    <elementGuidId>134d5613-3bf8-4951-8e73-86a99d3b59bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[contains(text(),'Auto Patient Test')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[contains(text(),'Auto Client Test')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

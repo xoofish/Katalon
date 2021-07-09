@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UH End Session</name>
+   <tag></tag>
+   <elementGuidId>72b265d3-f807-495d-8289-feca6e919bef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M90.4,37.8C45.1,17.4,8.9,38.5,8.9,38.5c-10.3,6.5-8.8,11.4-8.8,11.4l0.1,15.2c-0.1,8,5.6,5.6,5.6,5.6L24,66 c6.1-2,5.2-6.2,5.2-6.2l0.1-4.9c0-3.2,1.8-4.2,1.8-4.2c19.2-6.1,38,0,38,0c2.4,0.6,1.8,2.9,1.8,2.9l-0.2,5c0.1,5.8,5.1,6.2,5.1,6.2 l17.8,5.5c5.6,2.3,6.2-3.9,6.2-3.9l-0.1-16.7C99.1,41,90.4,37.8,90.4,37.8z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;session_videos_wrap&quot;]/div[3]/div/button[2]</value>
+   </webElementProperties>
+</WebElementEntity>

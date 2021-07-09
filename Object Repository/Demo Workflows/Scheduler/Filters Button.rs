@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='we-button we-button-big calendar-filtering-button we-dropdown-toggle-no-icon we-dropdown-toggle']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Schedule'])[1]/following::a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,15 +6,15 @@
    <elementGuidId>8739cac9-cdf0-4687-af5a-4f3dc7da0087</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='document_14726']/td/span/a[1]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'sample.pdf' or . = 'sample.pdf')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'sample.pdf' or . = 'sample.pdf') and @data-original-title = 'sample.pdf']</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[8]/following::a[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <value>tippy-2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-title</name>
       <type>Main</type>

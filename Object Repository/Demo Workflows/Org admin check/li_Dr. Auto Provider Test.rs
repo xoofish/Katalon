@@ -6,15 +6,15 @@
    <elementGuidId>af9c5072-a25e-4111-9ab2-80564e8390b7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='faux-select-selection-organization-provider']/li[4]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//ul[@id='faux-select-selection-organization-provider']/li[23][count(. | //*[(text() = 'Dr. Auto Provider Test' or . = 'Dr. Auto Provider Test')]) = count(//*[(text() = 'Dr. Auto Provider Test' or . = 'Dr. Auto Provider Test')])]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='faux-select-selection-organization-provider']/li[192]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -58,36 +58,36 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//ul[@id='faux-select-selection-organization-provider']/li[192]</value>
+      <value>//ul[@id='faux-select-selection-organization-provider']/li[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. 14147 Provi'])[2]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Doctor Quentin Automation'])[2]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr training provider'])[2]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All therapists'])[2]/following::li[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. Bailey Hall'])[2]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. Basic Visuwell'])[2]/preceding::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. Ballad Prov 01'])[2]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. Justin Hoffman'])[2]/preceding::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//li[192]</value>
+      <value>//li[4]</value>
    </webElementXpaths>
 </WebElementEntity>

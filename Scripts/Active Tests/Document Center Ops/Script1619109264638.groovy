@@ -24,7 +24,7 @@ WebUI.enableSmartWait()
 WebUI.maximizeWindow()
 
 'Email used for all wecounsel provider testing\r\n'
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoprovider@visuwell.net')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'visuwellautomation+provider@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
 
@@ -39,12 +39,15 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/a_Upload
 'CHANGE "INPUT" TO FILE PATH Selects local file (Sample.pdf)'
 WebUI.uploadFile(findTestObject('Demo Workflows/Document Management Workflow/Library Select file button'), 'C:\\Users\\CarldeSoto\\Documents\\sample.pdf')
 
+WebUI.delay(5)
+
 'upload'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Upload button'))
 
-WebUI.waitForElementClickable(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'), 20)
+not_run: WebUI.waitForElementClickable(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'), 
+    20)
 
-WebUI.enhancedClick(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'))
+not_run: WebUI.enhancedClick(findTestObject('Demo Workflows/Document Management Workflow/Library Next page'))
 
 'opens the document'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library Open Sample pdf'))
@@ -83,13 +86,24 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Library 
 'accepts the chrome popup'
 WebUI.acceptAlert()
 
+WebUI.closeBrowser()
+
+WebUI.openBrowser('https://test-visuwell.wecounsel.com/users/sign_in')
+
+'Email used for all wecounsel provider testing\r\n'
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')
+
+WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
+
+WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
+
+'Navigates to document center'
+WebUI.click(findTestObject('Demo Workflows/Patient Functionality/Document Center'))
+
 'Navigates to personal documents tab'
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Personal tab button'))
 
-WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Personal New doc button'))
-
-'upload new personal doc'
-WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal upload doc button'))
+WebUI.click(findTestObject('Demo Workflows/Manage Patients Workflow/Upload Document'))
 
 'CHANGE "INPUT" TO FILE PATH Selects local file (Sample.pdf)'
 WebUI.uploadFile(findTestObject('Demo Workflows/Document Management Workflow/personal Select file'), 'C:\\Users\\CarldeSoto\\Documents\\sample.pdf')
@@ -99,10 +113,8 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Personal
 
 WebUI.waitForElementClickable(findTestObject('Demo Workflows/Document Management Workflow/personal open sample pdf'), 5)
 
-WebUI.mouseOver(findTestObject('Demo Workflows/Document Management Workflow/personal open sample pdf'))
-
 'opens the document'
-WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal open sample pdf'))
+WebUI.enhancedClick(findTestObject('Demo Workflows/Document Management Workflow/personal open sample pdf'))
 
 'This fails if the document does not open in a new tab'
 WebUI.switchToWindowIndex(1)
@@ -126,4 +138,13 @@ WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/Personal
 WebUI.setText(findTestObject('Demo Workflows/Document Management Workflow/Personal send message subject'), 'Personal Doc Center Send Test')
 
 WebUI.click(findTestObject('Demo Workflows/Document Management Workflow/personal send message button'))
+
+WebUI.mouseOver(findTestObject('Demo Workflows/Document Management Workflow/personal sample pdf dropdown menu'))
+
+WebUI.waitForElementClickable(findTestObject('Demo Workflows/Document Management Workflow/personal sample pdf delete'), 
+    5)
+
+WebUI.enhancedClick(findTestObject('Demo Workflows/Document Management Workflow/personal sample pdf delete'))
+
+WebUI.acceptAlert()
 

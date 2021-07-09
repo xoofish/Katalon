@@ -14,7 +14,7 @@
          <value>input[type=file]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +43,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;new_document&quot;)/fieldset[1]/label[@class=&quot;document-upload-container input-wrapper&quot;]/div[@class=&quot;document-upload-controls&quot;]/a[@class=&quot;we-button&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Library Upload iFrame</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

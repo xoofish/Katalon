@@ -22,7 +22,7 @@ WebUI.maximizeWindow()
 WebUI.enableSmartWait()
 
 'Email used for all wecounsel client testing\r\n'
-WebUI.setText(findTestObject('Object Repository/Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+autoclient@visuwell.net')
+WebUI.setText(findTestObject('Object Repository/Page_User Login  WeCounsel/input_Please Log In_useremail'), 'visuwellautomation+patient@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_User Login  WeCounsel/input_Please Log In_userpassword'), 
     'n/qdZPZskVxU+Rv/aUDKXw==')
