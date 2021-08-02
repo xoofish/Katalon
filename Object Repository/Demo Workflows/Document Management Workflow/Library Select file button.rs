@@ -6,12 +6,12 @@
    <elementGuidId>2c690830-1834-4d92-8116-6050acd853aa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='new_document']/fieldset/label/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[type=file]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='new_document']/fieldset/label/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -43,13 +43,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;new_document&quot;)/fieldset[1]/label[@class=&quot;document-upload-container input-wrapper&quot;]/div[@class=&quot;document-upload-controls&quot;]/a[@class=&quot;we-button&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Library Upload iFrame</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

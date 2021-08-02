@@ -1,103 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checker name UAMS - Client Test</name>
+   <name>UAMS Terms Second Check</name>
    <tag></tag>
-   <elementGuidId>7b0168e5-8e70-45c3-bd99-f7c4d58fe7c0</elementGuidId>
+   <elementGuidId>905cb894-9900-499b-a8c0-d3e5c36a2e57</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(contains(text(), 'Auto UAMS Patient Test') or contains(., 'Auto UAMS Patient Test'))]</value>
+         <key>XPATH</key>
+         <value>//label</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='wesessions-wrapper']/table/thead/tr/th[3]</value>
+         <key>CSS</key>
+         <value>label.custom-control-label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-label</name>
+      <name>for</name>
       <type>Main</type>
-      <value>Patient</value>
+      <value>user-agreement</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>we-text-lg-center</value>
+      <value>custom-control-label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Auto UAMS Patient Test</value>
+      <value>I agree to the Terms and Conditions of UAMS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;event_22702&quot;)/td[@class=&quot;we-text-lg-center&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;we-page&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-10 col-xl-8 offset-md-1 offset-xl-2&quot;]/div[@class=&quot;we-page-body&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;we-wizard&quot;]/div[2]/div[@class=&quot;we-wizard-tab-wrapper&quot;]/form[1]/div[@class=&quot;text-center&quot;]/div[@class=&quot;custom-control custom-checkbox mb-3&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='wesessions-wrapper']/table/thead/tr/th[3]</value>
+      <value>//div[@id='app']/div/div/div[2]/div/div/div/div/div/div[2]/div/form/div/div[2]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait Time'])[1]/following::th[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agree to Terms'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session Starts At'])[1]/following::th[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms and Conditions'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferred Gender'])[1]/preceding::th[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Membership'])[1]/preceding::th[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Patient']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='I agree to the']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th[3]</value>
+      <value>//label</value>
    </webElementXpaths>
 </WebElementEntity>

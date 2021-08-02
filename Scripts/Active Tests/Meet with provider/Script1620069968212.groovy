@@ -28,7 +28,7 @@ WebUI.enableSmartWait()
 
 'UAMS client acct'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_useremail'), 
-    'alexc+uamsclient@visuwell.net')
+    'visuwellautomation+uamspatient@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_userpassword'), 
     'n/qdZPZskVxU+Rv/aUDKXw==')
@@ -39,12 +39,12 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_University of Arkansas for
 'clicks meet with a provider now'
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/a_Meet With a Provider Now'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/span_Telehealth - (30 min)_faux-selection-i_b5a73a'))
-
 WebUI.click(findTestObject('Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/span_Telehealth - (30 min)_faux-selection-i_b5a73a'))
 
 'selects telehealth session type'
 WebUI.click(findTestObject('Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/li_Telehealth - (30 min)'))
+
+WebUI.click(findTestObject('UAMS Terms Check'))
 
 'requests session'
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/button_Request Session'))
@@ -76,10 +76,12 @@ WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Me
 'consents to session'
 WebUI.click(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/button_I Agree'))
 
-WebDriver driver2 = new ChromeDriver()
+WebDriver driver1 = new ChromeDriver()
 
 'opens second chrome window'
-DriverFactory.changeWebDriver(driver2)
+DriverFactory.changeWebDriver(driver1)
+
+WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test-uams-med.wecounsel.com/users/sign_in')
 
@@ -87,7 +89,7 @@ WebUI.maximizeWindow()
 
 'uams provider acct'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_useremail'), 
-    'alexc+uamsprovider@visuwell.net')
+    'visuwellautomation+uamsprovider@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_userpassword'), 
     'n/qdZPZskVxU+Rv/aUDKXw==')
@@ -109,7 +111,7 @@ if (now.contains('NOW')) {
 String name = WebUI.getText(findTestObject('Demo Workflows/Meet with a provider now/Checker name UAMS - Client Test'))
 
 'checks to see if name is uams client'
-if (name.contains('UAMS Client Test')) {
+if (name.contains('Auto UAMS Patient Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }
@@ -148,9 +150,6 @@ if (description.contains('I need help')) {
 
 WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/Claim session button'))
 
-'claims session'
-not_run: WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/I Agree to claim'))
-
 WebUI.click(findTestObject('Demo Workflows/Meet with a provider now/Start Session button'))
 
 WebUI.openBrowser('https://test-uams-med.wecounsel.com/users/sign_in')
@@ -161,7 +160,7 @@ WebUI.enableSmartWait()
 
 'UAMS client acct'
 WebUI.setText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_useremail'), 
-    'alexc+uamsclient@visuwell.net')
+    'visuwellautomation+uamspatient@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_University of Arkansas for Medical Sciences/UAMS Provider Admin Notification Emails/input_Please Log In_userpassword'), 
     'n/qdZPZskVxU+Rv/aUDKXw==')

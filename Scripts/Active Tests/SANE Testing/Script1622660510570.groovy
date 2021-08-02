@@ -54,7 +54,7 @@ WebUI.mouseOver(findTestObject('Demo Workflows/Session functionality/Session sch
 
 WebUI.click(findTestObject('Demo Workflows/Session functionality/Session schedule and checkin/a_Session'))
 
-WebUI.waitForElementClickable(findTestObject('Demo Workflows/Org admin checkin as patient/Next button'), 5)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Demo Workflows/Org admin checkin as patient/Next button'))
 

@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>31533dc9-c430-46c1-8cd8-9583de3e74cd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Active Tests/Patient Functionality</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -82,5 +82,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Active Tests/Meet with provider</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf76b770-282e-404e-a967-31cb19e54f47</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Active Tests/UH Testing</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

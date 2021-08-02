@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.enableSmartWait()
 
-WebUI.setText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_useremail'), 'alexc+autoskypat@visuwell.net')
+WebUI.setText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_useremail'), 'visuwellautomation+skypatient@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_SkyTherapist/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
 
 WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/a'))
+WebUI.click(findTestObject('Page_SkyTherapist/TopBar Directory'))
 
 WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/span_Select State'))
 
@@ -61,7 +61,7 @@ WebUI.openBrowser('https://test-skytherapist.wecounsel.com/users/sign_in')
 WebUI.maximizeWindow()
 
 'Logs into skytherapist provider'
-WebUI.setText(findTestObject('Page_SkyTherapist/input_Please Log In_useremail'), 'mtrvisuwell+skytestadmin@wecounsel.com')
+WebUI.setText(findTestObject('Page_SkyTherapist/input_Please Log In_useremail'), 'visuwellautomation+skyadmin@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_SkyTherapist/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
 
@@ -77,7 +77,7 @@ WebUI.click(findTestObject('Object Repository/Page_SkyTherapist/span_Pre-Schedul
 def clientName = WebUI.getText(findTestObject('Object Repository/Page_SkyTherapist/Client Name check'))
 
 'Compares gathered client name to expected'
-if (clientName.contains('SkyPat Auto Test')) {
+if (clientName.contains('Auto SkyTherapist Patient Test')) {
 } else {
     KeywordUtil.markFailedAndStop()
 }

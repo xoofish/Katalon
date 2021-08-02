@@ -22,7 +22,7 @@ WebUI.enableSmartWait()
 WebUI.maximizeWindow()
 
 'uams provider account'
-WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'alexc+uamsprovider@visuwell.net')
+WebUI.setText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_useremail'), 'visuwellautomation+uamsprovider@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please Log In_userpassword'), 'n/qdZPZskVxU+Rv/aUDKXw==')
 
