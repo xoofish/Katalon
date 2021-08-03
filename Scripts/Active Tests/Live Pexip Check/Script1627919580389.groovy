@@ -67,7 +67,7 @@ WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Meet No
 'For whatever reason this doesnt work. Failure handling is set to optional because verifyElementPresent returns true or exception handling, not false.'
 if (WebUI.verifyElementPresent(findTestObject('Demo Workflows/Session functionality/General/confirm start new meet now session popup'), 
     0, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Demo Workflows/Session functionality/General/confirm start new meet now session popup'))
+    not_run: WebUI.click(findTestObject('Demo Workflows/Session functionality/General/confirm start new meet now session popup'))
 }
 
 'robot class emulates keyboard presses'
@@ -75,7 +75,9 @@ Robot robot = new Robot()
 
 WebUI.delay(2)
 
-robot.mouseMove(905, 200)
+robot.mouseMove(0, 0)
+
+robot.mouseMove(350, 150)
 
 robot.mousePress(InputEvent.BUTTON1_MASK)
 
@@ -84,13 +86,6 @@ robot.mouseRelease(InputEvent.BUTTON1_MASK)
 if (WebUI.verifyAlertPresent(3, FailureHandling.OPTIONAL) == true) {
     Alert.accept()
 }
-
-not_run: robot.keyPress(KeyEvent.VK_TAB)
-
-not_run: robot.keyPress(KeyEvent.VK_TAB)
-
-'accepts chrome notifications popup'
-not_run: robot.keyPress(KeyEvent.VK_ENTER)
 
 WebUI.waitForElementClickable(findTestObject('Demo Workflows/Session functionality/General/Start Session button'), 5)
 
