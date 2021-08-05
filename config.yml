@@ -6,5 +6,4 @@ workflows:
     jobs:
       - katalon-studio/run:
           version: latest
-          command_arguments: >-
-            -browserType='Chrome' -retry=2 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
+          command_arguments: '-browserType='Chrome' -retry=2 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing''
