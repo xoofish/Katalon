@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>bf76b770-282e-404e-a967-31cb19e54f47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Active Tests/UH Testing</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

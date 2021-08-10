@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='video-app-end-button']</value>
+         <value>//div[2]/div/button</value>
       </entry>
       <entry>
          <key>CSS</key>

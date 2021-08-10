@@ -76,7 +76,9 @@ Robot robot = new Robot()
 
 WebUI.delay(2)
 
-robot.mouseMove(905, 200)
+robot.mouseMove(0, 0)
+
+robot.mouseMove(350, 150)
 
 robot.mousePress(InputEvent.BUTTON1_MASK)
 

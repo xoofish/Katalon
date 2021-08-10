@@ -56,7 +56,9 @@ WebUI.delay(2)
 
 Robot robot = new Robot()
 
-robot.mouseMove(900, 220)
+robot.mouseMove(0, 0)
+
+robot.mouseMove(350, 150)
 
 WebUI.delay(1)
 
