@@ -1,15 +1,32 @@
 version: 2.1
-
+        
 orbs:
-  build:
+  node: circleci/node@4.1.0
+
+jobs:
+  test:
+    katalon-studio/run: 
+        version: latest
+        command_arguments: >-
+          -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
+
+  upload-report:
     docker:
-      - image: katalonstudio/katalon
+      - image: katalonstudio/report-uploader:0.0.8
+    environment:
+      PROJECT_ID: 145957
+      TYPE: katalon
+      REPORT_PATH: CircleCI Automation Test Results
     steps:
-      - checkout
-      - run:
-        name: Prod Pexip Testing
-        command: katalon-execute.sh -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
-      - store-test_results:
-        path: ./report
-      - store-artifacts:
-        path: ./report
+      - attach_workspace:
+          at: /katalon
+      - run: uploader.sh
+
+workflows:
+  version: 2.1
+  upload-report:
+    jobs:
+      - test
+      - upload-report:
+          requires:
+            - test
