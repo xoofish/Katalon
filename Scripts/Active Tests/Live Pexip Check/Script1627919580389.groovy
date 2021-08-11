@@ -62,6 +62,15 @@ WebUI.setEncryptedText(findTestObject('Page_User Login  WeCounsel/input_Please L
 
 WebUI.click(findTestObject('Page_User Login  WeCounsel/button_Log in'))
 
+not_run: if (WebUI.verifyElementPresent(findTestObject('Prod_Cancel'), 2, FailureHandling.CONTINUE_ON_FAILURE) == true) {
+    WebUI.click(findTestObject('Prod Cancel'))
+}
+
+not_run: if (WebUI.verifyElementPresent(findTestObject('Prod_CancelConfirm'), 3, FailureHandling.CONTINUE_ON_FAILURE) == 
+true) {
+    WebUI.click(findTestObject('Prod_CancelConfirm'))
+}
+
 WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Meet Now button'))
 
 'For whatever reason this doesnt work. Failure handling is set to optional because verifyElementPresent returns true or exception handling, not false.'
@@ -77,7 +86,7 @@ WebUI.delay(2)
 
 robot.mouseMove(0, 0)
 
-robot.mouseMove(350, 150)
+robot.mouseMove(340, 185)
 
 robot.mousePress(InputEvent.BUTTON1_MASK)
 
@@ -87,9 +96,9 @@ if (WebUI.verifyAlertPresent(3, FailureHandling.OPTIONAL) == true) {
     Alert.accept()
 }
 
-WebUI.waitForElementClickable(findTestObject('Demo Workflows/Session functionality/General/Start Session button'), 5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Demo Workflows/Session functionality/General/Start Session button'))
+WebUI.enhancedClick(findTestObject('Pexip Join Session'))
 
 WebUI.delay(2)
 

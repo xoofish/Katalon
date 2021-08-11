@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start Session button</name>
+   <name>Pexip Join Session</name>
    <tag></tag>
-   <elementGuidId>cd367876-e5d3-4cf4-b13b-937664e3b833</elementGuidId>
+   <elementGuidId>7bf7ed83-5395-425e-bf9e-b55663ea163f</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.join-session-button.--enabled</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div/div[2]/div/div[2]/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -24,40 +28,54 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>we-button full-screen-session-action</value>
+      <value>btn join-session-button --enabled</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>wesession-action-button</value>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-start-session</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-av-toggle</name>
+      <type>Main</type>
+      <value>mic</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Start Session</value>
+      <value>Join Session</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wesession-action-button&quot;)</value>
+      <value>id(&quot;tech_check_wrap&quot;)/div[@id=&quot;tech_check_cta&quot;]/button[@class=&quot;btn join-session-button --enabled&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tech_check_cta']/button</value>
+      <value>//div[@id='tech_check_cta'/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Old session UI'])[1]/following::button[6]</value>
    </webElementXpaths>
@@ -92,7 +110,7 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
    </webElementXpaths>
