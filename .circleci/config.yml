@@ -32,7 +32,7 @@ test:
        PROJECT_ID: 145957
        TYPE: katalon
        REPORT_PATH: CircleCI Automation Test Results
-     steps:
+      steps:
       - attach_workspace:
           at: /katalon
       - run: uploader.sh
