@@ -3,13 +3,12 @@ version: 2.1
 orbs:
   node: circleci/node@4.1.0
 
-jobs:
-  build:
-    jobs:
-          katalon-studio/run: 
-          version: latest
-          command_arguments: >-
-            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
+build:
+  jobs:
+        katalon-studio/run: 
+        version: latest
+        command_arguments: >-
+          -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
   test:
     executor:
       name: node/default
