@@ -14,8 +14,8 @@ test:
     executor:
       name: node/default
       tag: '10.15.3'
-    working_directory: /root/project
-    steps:
+      working_directory: /root/project
+      steps:
       - checkout
       - run: |
           set -ex
@@ -26,13 +26,13 @@ test:
           paths:
             - report/*
     upload-report:
-    docker:
+      docker:
       - image: katalonstudio/report-uploader:0.0.8
-    environment:
-      PROJECT_ID: 145957
-      TYPE: katalon
-      REPORT_PATH: CircleCI Automation Test Results
-    steps:
+      environment:
+        PROJECT_ID: 145957
+       TYPE: katalon
+       REPORT_PATH: CircleCI Automation Test Results
+     steps:
       - attach_workspace:
           at: /katalon
       - run: uploader.sh
