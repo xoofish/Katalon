@@ -4,11 +4,11 @@ orbs:
   node: circleci/node@4.1.0
 
 jobs:
-- katalon-studio/run:
+  test:
+    katalon-studio/run: 
           version: latest
           command_arguments: >-
             -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
-  test:
     executor:
       name: node/default
       tag: '10.15.3'
@@ -23,7 +23,6 @@ jobs:
           root: /root/project
           paths:
             - report/*
-
   upload-report:
     docker:
       - image: katalonstudio/report-uploader:0.0.8
