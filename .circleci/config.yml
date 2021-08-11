@@ -16,7 +16,7 @@ workflow:
         name: node/default
         tag: '10.15.3'
         working_directory: /root/project
-      steps:
+        steps:
             - checkout
             - run: |
                 set -ex
