@@ -22,14 +22,14 @@ test:
           npm install
           npm test
       - persist_to_workspace:
-          root: /root/project
-          paths:
-            - report/*
+        root: /root/project
+        paths:
+          - report/*
     upload-report:
       docker:
       - image: katalonstudio/report-uploader:0.0.8
       environment:
-        PROJECT_ID: 145957
+       PROJECT_ID: 145957
        TYPE: katalon
        REPORT_PATH: CircleCI Automation Test Results
      steps:
