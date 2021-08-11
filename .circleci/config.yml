@@ -37,7 +37,7 @@ workflows:
   version: 2.1
   upload-report:
     jobs:
-      katalon-studio/run: 
-        version: latest
-        command_arguments: >-
-          -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
+      - test
+      - upload-report:
+          requires:
+            - test
