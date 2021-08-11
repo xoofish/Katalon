@@ -7,8 +7,8 @@ jobs:
   test:
     katalon-studio/run: 
         version: latest
-        command_arguments: >-
-          -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
+        run: katalon-studio.sh
+        command_arguments: -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
 
   upload-report:
     docker:
