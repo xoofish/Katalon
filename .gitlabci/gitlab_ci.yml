@@ -1,0 +1,32 @@
+stages:
+  - test
+  - upload-report
+
+test:
+  stage: test
+  image: node:10.15.3
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - npm install
+    - npm test
+  artifacts:
+    paths:
+      - report/
+  only:
+    - master
+
+upload-report:
+  stage: upload-report
+  image: katalonstudio/report-uploader:0.0.8
+  script:
+    - uploader.sh
+  variables:
+    PROJECT_ID: 145957
+    TYPE: katalon
+    REPORT_PATH: 
+  dependencies:
+    - test
+  only:
+    - master
