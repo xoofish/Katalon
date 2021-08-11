@@ -15,3 +15,5 @@ jobs:
   setup_mailhog:
     docker:
       - image: mailhog/mailhog:latest # primary container
+    steps:
+      - run: docker run mailhog/mailhog:latest
