@@ -4,10 +4,6 @@ orbs:
   node: circleci/node@4.1.0
 
 jobs:
-- katalon-studio/run:
-          version: latest
-          command_arguments: >-
-            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
   test:
     executor:
       name: node/default
@@ -23,7 +19,6 @@ jobs:
           root: /root/project
           paths:
             - report/*
-
   upload-report:
     docker:
       - image: katalonstudio/report-uploader:0.0.8
@@ -38,6 +33,12 @@ jobs:
 
 workflows:
   version: 2.1
+  build:
+    jobs:
+          katalon-studio/run: 
+          version: latest
+          command_arguments: >-
+            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
   upload-report:
     jobs:
       - test
