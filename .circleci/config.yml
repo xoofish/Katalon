@@ -16,16 +16,17 @@ workflow:
         name: node/default
         tag: '10.15.3'
         working_directory: /root/project
-        steps:
-          - checkout
-          - run: |
-            set -ex
-            :npm install
-            :npm test
-        - persist_to_workspace:
-        root: /root/project
-        paths:
-          - report/*
+      steps:
+            - checkout
+            - run: |
+                set -ex
+                npm install
+                npm test
+            - persist_to_workspace:
+                root: /root/project
+                paths:
+                 - report/*
+          
       upload-report:
         docker:
           - image: katalonstudio/report-uploader:0.0.8
