@@ -9,7 +9,8 @@ build:
         version: latest
         command_arguments: >-
           -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Prod Testing'
-  test:
+test:
+  jobs:
     executor:
       name: node/default
       tag: '10.15.3'
@@ -24,7 +25,7 @@ build:
           root: /root/project
           paths:
             - report/*
-  upload-report:
+    upload-report:
     docker:
       - image: katalonstudio/report-uploader:0.0.8
     environment:
