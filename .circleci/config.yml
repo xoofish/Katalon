@@ -11,9 +11,9 @@ workflows:
           command_arguments: >-
             -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test
             Suites/Prod Testing'
-  jobs:
-    setup_mailhog:
-      docker:
+jobs:
+  setup_mailhog:
+    docker:
       - image: mailhog/mailhog:latest # primary container
-      steps:
+    steps:
       - run: docker run mailhog/mailhog:latest
